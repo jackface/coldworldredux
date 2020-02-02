@@ -1,0 +1,45 @@
+﻿capital = 789
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+declare_war_on = {
+	target = BUR
+	type = annex_everything
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = nationalist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 100
+	monarchist = 0
+	social_conservative = 0
+	centrist = 0
+	liberal = 0
+	social_democrat = 0
+	socialist = 0
+	reformed_marxist = 0
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Moise Minoungou" 
+	desc = ""
+	picture = "Portrait_VOL_Moise_Minoungou.dds"
+	expire = "1953.3.1"
+	ideology = nationalist_ideology
+	traits = {
+		
+	}
+}

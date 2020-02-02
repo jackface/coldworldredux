@@ -1,0 +1,47 @@
+﻿capital = 307
+
+oob = "VEN_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+
+
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = nationalist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 100
+	monarchist = 0
+	social_conservative = 0
+	centrist = 0
+	liberal = 0
+	social_democrat = 0
+	socialist = 0
+	reformed_marxist = 0
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Pedro Carmona" 
+	desc = ""
+	picture = "Portrait_VEN_Pedro_Carmona.dds"
+	expire = "1953.3.1"
+	ideology = ultranationalist
+	traits = {
+		
+	}
+}

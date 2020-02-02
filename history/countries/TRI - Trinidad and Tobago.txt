@@ -1,0 +1,42 @@
+﻿capital = 691
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 0
+	monarchist = 0
+	social_conservative = 48
+	centrist = 0
+	liberal = 0
+	social_democrat = 52
+	socialist = 0
+	reformed_marxist = 0
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Basdeo Panday" 
+	desc = ""
+	picture = "Portrait_TRI_Basdeo_Panday.dds"
+	expire = "1953.3.1"
+	ideology = social_democrat_ideology
+	traits = {
+		
+	}
+}

@@ -1,0 +1,43 @@
+﻿capital = 317
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 10
+
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1934.11.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	nationalist = 19
+	monarchist = 0
+	social_conservative = 13
+	centrist = 9
+	liberal = 11
+	social_democrat = 5
+	socialist = 23
+	reformed_marxist = 13
+	totalitarian_socialist = 7
+}
+
+create_country_leader = {
+	name = "Daniel Ortega"
+	desc = "POLITICS_DANIEL_ORTEGA_DESC"
+	picture = "Portrait_NIC_Daniel_Ortega.dds"
+	expire = "1965.1.1"
+	ideology = chrisitan_socialism
+	traits = {
+		#
+	}
+}

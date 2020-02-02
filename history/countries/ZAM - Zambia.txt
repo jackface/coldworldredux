@@ -1,0 +1,41 @@
+﻿capital = 771
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+
+set_politics = {
+	ruling_party = liberal
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 11
+	monarchist = 0
+	social_conservative = 29
+	centrist = 4
+	liberal = 31
+	social_democrat = 10
+	socialist = 12
+	reformed_marxist = 3
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Hakainde Hichilema" 
+	desc = ""
+	picture = "Portrait_ZAM_Hakainde_Hichilema.dds"
+	expire = "1953.3.1"
+	ideology = social_liberal
+	traits = {
+		
+	}
+}
+

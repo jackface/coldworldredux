@@ -1,0 +1,21 @@
+state={
+	id=794
+	name="STATE_794" 
+	manpower = 71440
+	
+	state_category = town
+
+	history={
+		buildings = {
+			infrastructure = 3
+			7123= {
+				naval_base = 2
+
+			}
+		}
+	}
+
+	provinces={
+		7123
+	}
+}

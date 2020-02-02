@@ -1,0 +1,44 @@
+﻿capital = 545
+
+oob = "ZIM_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 3
+	nationalist = 10
+	monarchist = 0
+	social_conservative = 21
+	centrist = 7
+	liberal = 5
+	social_democrat = 3
+	socialist = 30
+	reformed_marxist = 0
+	totalitarian_socialist = 21
+}
+
+create_country_leader = {
+	name = "Robert Mugabe" 
+	desc = ""
+	picture = "Portrait_ZIM_Robert_Mugabe.dds"
+	expire = "1953.3.1"
+	ideology = nationalist_socialism
+	traits = {
+		
+	}
+}

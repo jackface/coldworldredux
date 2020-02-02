@@ -1,0 +1,26 @@
+state={
+	id=795
+	name="STATE_795" 
+	manpower = 1243004
+	
+	state_category = city
+
+	history={
+		owner = BHR
+		add_core_of = BHR
+		victory_points = {
+			13218 25
+		}
+		buildings = {
+			infrastructure = 6
+			13218= {
+				naval_base = 2
+
+			}
+		}
+	}
+
+	provinces={
+		13218
+	}
+}

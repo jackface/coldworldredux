@@ -1,0 +1,535 @@
+ideologies = {
+	
+	fascist = {
+		
+		types = {
+		
+			national_socialist = {	
+			}
+			
+			fascist_ideology = {	
+			}
+			
+			falangist = {			
+			}
+			
+			rexist = {				
+			}
+			
+			imperial_japanese = {				
+			}
+			
+			salazarism = {				
+			}
+			
+			fundamental_islam = {				
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+			"FACTION_NAME_FASCIST_4"
+			"FACTION_NAME_FASCIST_5"
+			"FACTION_NAME_FASCIST_6"
+		}
+		
+		color = { 82 51 28 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.25
+		}
+		
+	}
+
+
+	nationalist = {
+		
+		types = {
+		
+			ultranationalist = {
+			}
+			
+			francoist = {
+			}
+			
+			nationalist_ideology = {
+			}
+			
+			authoritarian_democracy = {
+			}
+		
+			american_nationalist = {
+			}
+			
+			syrian_baathism_right = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONALIST_1"
+			"FACTION_NAME_NATIONALIST_2"
+			"FACTION_NAME_NATIONALIST_3"
+			"FACTION_NAME_NATIONALIST_4"
+			"FACTION_NAME_NATIONALIST_5"
+			"FACTION_NAME_NATIONALIST_6"
+		}
+		
+		color = { 184 188 182 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+
+	monarchist = {
+		
+		types = {
+		
+			absolute_monarchist = {
+			}
+			
+			royalist_socialism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_MONARCHIST_1"
+			"FACTION_NAME_MONARCHIST_2"
+			"FACTION_NAME_MONARCHIST_3"
+			"FACTION_NAME_MONARCHIST_4"
+			"FACTION_NAME_MONARCHIST_5"
+			"FACTION_NAME_MONARCHIST_6"
+		}
+		
+		color = { 83 49 121 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+	
+	social_conservative = {
+		
+		types = {
+		
+			reactionary = {
+			}
+			
+			american_conservative = {
+			}
+			
+			thatcherite = {
+			}
+			
+			european_conservative = {
+			}
+			
+			agrarian_conservative = {
+			}
+			
+			christian_democracy = {
+			}
+			
+			fiscal_conservative = {
+			}
+			
+			islamic_democracy = {
+			}
+			
+			islamic_conservativism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_4"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
+		}
+		
+		color = { 62 53 198 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+	
+	centrist = {
+		
+		types = {
+		
+			right_libertarian = {
+			}
+			
+			centrist_ideology = {
+			}
+			
+			centrist_populist = {
+			}
+			
+			right_neoliberalism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CENTRIST_1"
+			"FACTION_NAME_CENTRIST_2"
+			"FACTION_NAME_CENTRIST_3"
+			"FACTION_NAME_CENTRIST_4"
+			"FACTION_NAME_CENTRIST_5"
+			"FACTION_NAME_CENTRIST_6"
+		}
+		
+		color = { 203 113 38 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+	
+	liberal = {
+		
+		types = {
+		
+			social_liberal = {
+			}
+			
+			left_libertarian = {
+			}
+			
+			old_american_democrats = {
+			}
+			
+			left_neoliberalism = {
+			}
+			
+			liberal_dictator = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
+		}
+		
+		color = { 240 235 103 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+	
+	social_democrat = {
+		
+		types = {
+		
+			social_democrat_ideology = {
+			}
+			
+			anti_communism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
+		}
+		
+		color = { 254 80 119 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+	
+	socialist = {
+		
+		types = {
+		
+			centrist_socialist = {
+			}
+			
+			democratic_socialist = {
+			}
+			
+			progressive = {
+			}
+			
+			european_moderate_socialist = {
+			}
+			
+			socialist_ideology = {
+			}
+			
+			american_revolutionary_socialist_ideology = {
+			}
+			
+			luxemburgism = {
+			}
+			
+			syndicalism = {
+			}
+			
+			anarcho_syndicalism = {
+			}
+			
+			nasserism = {
+			}
+			
+			chrisitan_socialism = {
+			}
+			
+			neozapatismo = {
+			}
+			
+			buddhist_socialist_ideology = {
+			}
+			
+			islamic_socialist_ideology = {
+			}
+			
+			titoism = {
+			}
+			
+			arab_socialism = {
+			}
+			
+			nationalist_socialism = {
+			}
+			
+			syrian_baathism_left = {
+			}
+			
+			elected_trotskyism = {
+			}
+			
+			castroism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALIST_1"
+			"FACTION_NAME_SOCIALIST_2"
+			"FACTION_NAME_SOCIALIST_3"
+			"FACTION_NAME_SOCIALIST_4"
+			"FACTION_NAME_SOCIALIST_5"
+			"FACTION_NAME_SOCIALIST_6"
+		}
+		
+		color = { 234 75 77 }
+		
+		war_impact_on_world_tension = 1.95
+		faction_impact_on_world_tension = 1.95
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+	
+	reformed_marxist = {
+		
+		types = {
+		
+			marxist = {
+			}
+			
+			american_reformed_marxist = {
+			}
+			
+			christian_reformed_marxist = {
+			}
+		
+			leninist = {
+			}
+			
+			stalinist = {
+			}
+			
+			bagazaism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 155 18 20  }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.25
+		}
+		
+	}
+	
+	totalitarian_socialist = {
+		
+		types = {
+			
+			totalitarian_socialist_ideology = {
+			}
+			
+			trotyskyist = {
+			}
+			
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NEW_MAOISM_1"
+			"FACTION_NAME_NEW_MAOISM_2"
+			"FACTION_NAME_NEW_MAOISM_3"
+			"FACTION_NAME_NEW_MAOISM_4"
+			"FACTION_NAME_NEW_MAOISM_5"
+			"FACTION_NAME_NEW_MAOISM_6"
+		}
+		
+		color = { 107 11 11 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.5
+		}
+		
+	}
+}

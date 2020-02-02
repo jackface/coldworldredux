@@ -1,0 +1,76 @@
+﻿capital = 111
+
+
+set_research_slots = 3
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_heavy_cruiser = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		coastal_defense_ships = 1
+	}
+}
+
+set_convoys = 5
+
+add_ideas = {
+	limited_conscription
+}
+
+set_politics = {
+	ruling_party = centrist
+	last_election = "1933.7.1"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 2
+	nationalist = 8
+	monarchist = 0
+	social_conservative = 26
+	centrist = 31
+	liberal = 16
+	social_democrat = 9
+	socialist = 3
+	reformed_marxist = 5
+	totalitarian_socialist = 0
+}
+
+
+create_country_leader = {
+	name = "Jyrki Katainen"
+	desc = "POLITICS_JYRKI_KATAINEN_DESC"
+	picture = "Portrait_FIN_Jyrki_Katainen.dds"
+	expire = "1965.1.1"
+	ideology = centrist_populist
+	traits = {
+		#
+	}
+}

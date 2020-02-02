@@ -1,0 +1,41 @@
+﻿capital = 556
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 2
+	nationalist = 14
+	monarchist = 3
+	social_conservative = 19
+	centrist = 1
+	liberal = 6
+	social_democrat = 7
+	socialist = 37
+	reformed_marxist = 11
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Alpha Oumar Konaré"
+	desc = "POLITICS_ALPHA_OUMAR_KONARE_DESC"
+	picture = "Portrait_MLI_Alpha_Oumar_Konare.dds"
+	expire = "1965.1.1"
+	ideology = islamic_socialist_ideology
+	traits = {
+		#
+	}
+}

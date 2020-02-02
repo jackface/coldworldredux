@@ -1,0 +1,283 @@
+﻿add_namespace = exact_date_trigger
+
+#February, 14th, 2010
+country_event = {
+	id = exact_date_trigger.45
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.2.13
+	}
+	
+	option = {
+		##Maggie Thatcher Death
+		if = {
+			limit = { 
+				country_exists = ENG
+			}
+			ENG = { country_event = britain.1 }
+		}
+		
+	}
+}
+
+#February, 24th, 2010
+country_event = {
+	id = exact_date_trigger.55
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.2.23
+	}
+	
+	option = {
+		##Maggie Thatcher Funeral
+		if = {
+			limit = { 
+				country_exists = ENG
+			}
+			ENG = { country_event = britain.2 }
+		}
+		
+	}
+}
+
+#March 1st, 2010
+country_event = {
+	id = exact_date_trigger.60
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.2.28
+	}
+	
+	option = {
+		##Wallace Brigade Comes Forward
+		if = {
+			limit = { 
+				country_exists = ENG
+			}
+			ENG = { country_event = britain.6 }
+		}
+		
+	}
+}
+
+#March 2nd, 2010
+country_event = {
+	id = exact_date_trigger.61
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.3.1
+	}
+	
+	option = {
+		##Riots In London
+		if = {
+			limit = { 
+				country_exists = ENG
+			}
+			ENG = { country_event = britain.3 }
+		}
+		
+	}
+}
+
+#March 13th, 2010
+country_event = {
+	id = exact_date_trigger.72
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.3.12
+	}
+	
+	option = {
+		##Mark Thatcher Resigns
+		if = {
+			limit = { 
+				country_exists = ENG
+			}
+			ENG = { country_event = britain.4 }
+		}
+		
+	}
+}
+
+#May 5th, 2010
+country_event = {
+	id = exact_date_trigger.125
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.5.4
+	}
+	
+	option = {
+		##Conservative Leadership Election
+		if = {
+			limit = { 
+				country_exists = ENG
+			}
+			ENG = { country_event = britain.5 }
+		}
+		
+	}
+}
+
+#May 12th, 2010
+country_event = {
+	id = exact_date_trigger.132
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.5.11
+	}
+	
+	option = {
+		##The Queen meets with Carol
+		if = {
+			limit = { 
+				country_exists = ENG
+				ENG = {
+					has_country_flag = thatcher_victory
+				}
+			}
+			ENG = { country_event = britain.7 }
+		}
+		
+	}
+}
+
+#May 22nd, 2010
+country_event = {
+	id = exact_date_trigger.142
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.5.21
+	}
+	
+	option = {
+		##Crow-Corbyn Rally
+		if = {
+			limit = { 
+				country_exists = ENG
+				ENG = {
+					has_country_flag = thatcher_victory
+				}
+			}
+			ENG = { country_event = britain.8 }
+		}
+		
+	}
+}
+
+#May 28th, 2010
+country_event = {
+	id = exact_date_trigger.148
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.5.27
+	}
+	
+	option = {
+		##Police Station Occupations
+		if = {
+			limit = { 
+				country_exists = ENG
+				ENG = {
+					has_country_flag = thatcher_victory
+				}
+			}
+			ENG = { country_event = britain.9 }
+		}
+		
+	}
+}
+
+#June 7th, 2010
+country_event = {
+	id = exact_date_trigger.158
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.6.6
+	}
+	
+	option = {
+		##Max Mosley Referendum
+		if = {
+			limit = { 
+				country_exists = ENG
+				ENG = {
+					has_country_flag = thatcher_victory
+				}
+			}
+			ENG = { country_event = britain.13 }
+		}
+		
+	}
+}
+
+#June 13th, 2010
+country_event = {
+	id = exact_date_trigger.164
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.6.12
+	}
+	
+	option = {
+		##Stray Bullet
+		if = {
+			limit = { 
+				country_exists = ENG
+				ENG = {
+					has_country_flag = thatcher_victory
+				}
+			}
+			ENG = { country_event = britain.10 }
+		}
+		
+	}
+}
+
+#June 21st, 2010
+country_event = {
+	id = exact_date_trigger.172
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.6.20
+	}
+	
+	option = {
+		##Break Down of Parliament
+		if = {
+			limit = { 
+				country_exists = ENG
+				ENG = {
+					has_country_flag = thatcher_victory
+				}
+			}
+			ENG = { country_event = britain.11 }
+		}
+		
+	}
+}

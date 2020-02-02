@@ -1,0 +1,54 @@
+﻿capital = 316
+
+oob = "COS_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 10
+
+set_politics = {
+	ruling_party = centrist
+	last_election = "1932.2.14"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+
+set_popularities = {
+	fascist = 0
+	nationalist = 11
+	monarchist = 0
+	social_conservative = 9
+	centrist = 0
+	liberal = 8
+	social_democrat = 1
+	socialist = 14
+	reformed_marxist = 54
+	totalitarian_socialist = 3
+}
+
+create_country_leader = {
+	name = "Juan José Vargas Fallas"
+	desc = "POLITICS_JUAN_JOSE_VARGAS_FALLAS_DESC"
+	picture = "Portrait_COS_Juan_Jose_Vargas_Fallas.dds"
+	expire = "1965.1.1"
+	ideology = ultranationalist
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Otto Guevara"
+	desc = "POLITICS_OTTO_GUEVARA_DESC"
+	picture = "Portrait_COS_Otto_Guevara.dds"
+	expire = "1965.1.1"
+	ideology = right_libertarian
+	traits = {
+		#
+	}
+}

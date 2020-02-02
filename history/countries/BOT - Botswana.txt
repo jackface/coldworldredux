@@ -1,0 +1,42 @@
+﻿capital = 542
+
+oob = "BOT_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 4
+	nationalist = 11
+	monarchist = 0
+	social_conservative = 20
+	centrist = 11
+	liberal = 5
+	social_democrat = 23
+	socialist = 21
+	reformed_marxist = 3
+	totalitarian_socialist = 2
+}
+
+create_country_leader = {
+	name = "Otsweletse Moupo" 
+	desc = ""
+	picture = "Portrait_BOT_Otsweletse_Moupo.dds"
+	expire = "1953.3.1"
+	ideology = social_democrat_ideology
+	traits = {
+		
+	}
+}

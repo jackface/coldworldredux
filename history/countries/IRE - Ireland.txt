@@ -1,0 +1,44 @@
+﻿capital = 113
+
+oob = "IRE_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	fuel_silos = 1
+}
+
+set_convoys = 10
+
+set_politics = {
+	ruling_party = centrist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 5
+	monarchist = 0
+	social_conservative = 20
+	centrist = 26
+	liberal = 20
+	social_democrat = 14
+	socialist = 7
+	reformed_marxist = 5
+	totalitarian_socialist = 3
+}
+
+create_country_leader = {
+	name = "Enda Kenny" 
+	desc = ""
+	picture = "Portrait_IRE_Enda_Kenny.dds"
+	expire = "1953.3.1"
+	ideology = centrist_ideology
+	traits = {
+		
+	}
+}

@@ -1,0 +1,276 @@
+﻿add_namespace = britain
+
+#Death of Maggie Thatcher
+country_event = {
+	id = britain.1
+	title = britain.1.t
+	desc = britain.1.d
+	picture = maggie_thatcher_death
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = britain.1.o1
+		add_political_power = -150
+		add_stability = -0.10
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.07
+		}
+	}
+}
+
+#Crisis After The Service
+country_event = {
+	id = britain.2
+	title = britain.2.t
+	desc = britain.2.d
+	picture = maggie_thatcher_funeral
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = britain.2.o1
+		add_political_power = -50
+		add_stability = -0.05
+	}
+}
+
+#Mass Riots In London
+country_event = {
+	id = britain.3
+	title = britain.3.t
+	desc = britain.3.d
+	picture = 2011_england_riots
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = britain.3.o1
+		add_political_power = -150
+		swap_ideas = {
+			remove_idea = ENG_lasting_traditionalism
+			add_idea = ENG_a_dead_tradition
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.02
+		}
+	}
+}
+
+#Mark Thatcher Resigns
+country_event = {
+	id = britain.4
+	title = britain.4.t
+	desc = britain.4.d
+	picture = mark_thatcher_resigns
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = britain.4.o1
+		add_stability = -0.05
+		
+		create_country_leader = {
+			name = "Thomas Galbraith"
+			desc = "POLITICS_THOMAS_GALBRAITH_DESC"
+			picture = "Portrait_ENG_Thomas_Galbraith.dds"
+			expire = "1965.1.1"
+			ideology = european_conservative
+		}
+		
+	}
+}
+
+#Conservative 2010 Leadership Race
+country_event = {
+	id = britain.5
+	title = britain.5.t
+	desc = britain.5.d
+	picture = 2010_leadership_race_tory
+	
+	is_triggered_only = yes
+	
+	#Galbraith
+	option = {   
+		name = britain.5.o1
+		
+		hidden_effect = {
+			set_country_flag = galbraith_victory
+		}
+		
+	}
+	
+	#Thatcher
+	option = {   
+		name = britain.5.o2
+		
+		create_country_leader = {
+			name = "Carol Thatcher"
+			desc = "POLITICS_CAROL_THATCHER_DESC"
+			picture = "Portrait_ENG_Carol_Thatcher.dds"
+			expire = "1965.1.1"
+			ideology = thatcherite
+		}
+		
+		hidden_effect = {
+			set_country_flag = thatcher_victory
+		}
+		
+	}
+	
+	#Cameron
+	option = {   
+		name = britain.5.o3
+		
+		create_country_leader = {
+			name = "David Cameron"
+			desc = "POLITICS_DAVID_CAMERON_DESC"
+			picture = "Portrait_ENG_David_Cameron.dds"
+			expire = "1965.1.1"
+			ideology = european_conservative
+		}
+		
+		hidden_effect = {
+			set_country_flag = cameron_victory
+		}
+		
+	}
+}
+
+#Wallace Brigade Comes Forward
+country_event = {
+	id = britain.6
+	title = britain.6.t
+	desc = britain.6.d
+	picture = wallace_brigade
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = britain.6.o1
+		add_political_power = -150
+		add_stability = -0.03
+		
+	}
+}
+
+#The Queen Meets With Thatcher
+country_event = {
+	id = britain.7
+	title = britain.7.t
+	desc = britain.7.d
+	picture = the_queens_approval
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = britain.7.o1
+		add_stability = -0.05
+		
+	}
+}
+
+#Crow-Corbyn Rally
+country_event = {
+	id = britain.8
+	title = britain.8.t
+	desc = britain.8.d
+	picture = crow_corbyn_rally
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = britain.8.o1
+		add_ideas = ENG_republican_sympathies
+		
+	}
+}
+
+#Police Stations Occupied
+country_event = {
+	id = britain.9
+	title = britain.9.t
+	desc = britain.9.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = britain.9.o1
+		
+	}
+}
+
+#The Stray Bullet
+country_event = {
+	id = britain.10
+	title = britain.10.t
+	desc = britain.10.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	#Rest In Peace Sir Robert
+	option = {   
+		name = britain.10.o1
+		hidden_effect = {
+			set_country_flag = robert_crow_shot
+		}
+	}
+	
+	#Rest In Peace Sir Jeremy
+	option = {   
+		name = britain.10.o2
+		hidden_effect = {
+			set_country_flag = jeremy_corbyn_shot
+		}
+	}
+}
+
+#The Break Down of Parliament
+country_event = {
+	id = britain.11
+	title = britain.11.t
+	desc = britain.11.d
+	#picture = 
+	
+	is_triggered_only = yes
+	
+	#
+	option = {   
+		name = britain.11.o1
+		add_stability = -0.10
+	}
+}
+
+#The Army In London
+country_event = {
+	id = britain.12
+	title = britain.12.t
+	desc = britain.12.d
+	picture = army_in_london
+	
+	is_triggered_only = yes
+	
+	#
+	option = {   
+		name = britain.12.o1
+	}
+}
+
+#Max Mosley calls for "Republican Plebiscite"
+country_event = {
+	id = britain.13
+	title = britain.13.t
+	desc = britain.13.d
+	picture = max_mosley_plebiscite
+	
+	is_triggered_only = yes
+	
+	#
+	option = {   
+		name = britain.13.o1
+	}
+}

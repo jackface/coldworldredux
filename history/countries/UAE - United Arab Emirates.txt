@@ -1,0 +1,41 @@
+﻿capital = 690
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = monarchist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	nationalist = 0
+	monarchist = 100
+	social_conservative = 0
+	centrist = 0
+	liberal = 0
+	social_democrat = 0
+	socialist = 0
+	reformed_marxist = 0
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Khalifa bin Zayed Al Nahyan" 
+	desc = ""
+	picture = "Portrait_UAE_Khalifa_bin_Zayed_Al_Nahyan.dds"
+	expire = "1953.3.1"
+	ideology = absolute_monarchist
+	traits = {
+		
+	}
+}

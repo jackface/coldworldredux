@@ -1,0 +1,42 @@
+﻿capital = 295
+
+oob = "COG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 6
+	nationalist = 10
+	monarchist = 0
+	social_conservative = 31
+	centrist = 3
+	liberal = 29
+	social_democrat = 12
+	socialist = 4
+	reformed_marxist = 3
+	totalitarian_socialist = 2
+}
+
+create_country_leader = {
+	name = "Eugène Diomi Ndongala" 
+	desc = ""
+	picture = "Portrait_COG_Eugene_Diomi_Ndongala.dds"
+	expire = "1953.3.1"
+	ideology = christian_democracy
+	traits = {
+		
+	}
+}

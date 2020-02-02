@@ -1,0 +1,39 @@
+﻿capital = 774
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+	ruling_party = nationalist
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 30
+	monarchist = 0
+	social_conservative = 24
+	centrist = 6
+	liberal = 4
+	social_democrat = 12
+	socialist = 16
+	reformed_marxist = 2
+	totalitarian_socialist = 6
+}
+
+create_country_leader = {
+	name = "Hissène Habré"
+	desc = "POLITICS_HISSENE_HABRE_DESC"
+	picture = "Portrait_CHA_Hissene_Habre.dds"
+	expire = "1965.1.1"
+	ideology = nationalist_ideology
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,43 @@
+﻿capital = 323
+
+oob = "NEP_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+set_war_support = 0.1
+set_stability = 0.8
+
+
+set_politics = {
+	ruling_party = totalitarian_socialist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 0
+	monarchist = 0
+	social_conservative = 0
+	centrist = 0
+	liberal = 0
+	social_democrat = 0
+	socialist = 0
+	reformed_marxist = 0
+	totalitarian_socialist = 100
+}
+
+create_country_leader = {
+	name = "KP Sharma Oli" 
+	desc = ""
+	picture = "Portrait_NEP_KP_Sharma_Oli.dds"
+	expire = "1953.3.1"
+	ideology = totalitarian_socialist_ideology
+	traits = {
+		
+	}
+}

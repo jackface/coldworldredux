@@ -1,0 +1,42 @@
+﻿capital = 311
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = nationalist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 11
+	monarchist = 0
+	social_conservative = 9
+	centrist = 0
+	liberal = 8
+	social_democrat = 1
+	socialist = 14
+	reformed_marxist = 54
+	totalitarian_socialist = 3
+}
+
+create_country_leader = {
+	name = "Derek Aikman"
+	desc = "POLITICS_DEREK_AIKMAN_DESC"
+	picture = "Portrait_BLZ_Derek_Aikman.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democracy
+	traits = {
+		#
+	}
+}

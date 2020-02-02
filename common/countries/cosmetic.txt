@@ -1,0 +1,25 @@
+
+SR_SLV = {
+    color = rgb { 72 73 126 }
+    color_ui = rgb { 72 73 126 }
+}
+
+SR_CRO = {
+    color = rgb { 72 73 126 }
+    color_ui = rgb { 72 73 126 }
+}
+
+SR_BOS = {
+    color = rgb { 72 73 126 }
+    color_ui = rgb { 72 73 126 }
+}
+
+SR_MAC = {
+    color = rgb { 72 73 126 }
+    color_ui = rgb { 72 73 126 }
+}
+
+SR_MNT = {
+    color = rgb { 72 73 126 }
+    color_ui = rgb { 72 73 126 }
+}

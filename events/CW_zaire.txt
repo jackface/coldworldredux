@@ -1,0 +1,16 @@
+﻿add_namespace = zaire
+
+#Death of Patrice Lumumba
+country_event = {
+	id = zaire.1
+	title = zaire.1.t
+	desc = zaire.1.d
+	picture = patrice_lumumba_death
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = zaire.1.o1
+		add_political_power = -15
+	}
+}

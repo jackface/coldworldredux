@@ -1,0 +1,31 @@
+add_namespace = china
+
+#Learn from Lei Feng Day
+country_event = {
+	id = china.1
+	title = china.1.t
+	desc = china.1.d
+	picture = lei_feng_day
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = china.1.o1
+		add_political_power = 15
+	}
+}
+
+#Learn from Lei Feng Day (After 2010)
+country_event = {
+	id = china.2
+	title = china.2.t
+	desc = china.2.d
+	picture = lei_feng_day
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = china.2.o1
+		add_political_power = 10
+	}
+}

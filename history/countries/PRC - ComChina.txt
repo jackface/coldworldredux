@@ -1,0 +1,49 @@
+﻿capital = 622
+
+oob = "PRC_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+set_stability = 0.6
+set_war_support = 0.7
+set_convoys = 750
+
+set_politics = {
+	ruling_party = totalitarian_socialist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	nationalist = 0
+	monarchist = 0
+	social_conservative = 0
+	centrist = 0
+	liberal = 0
+	social_democrat = 0
+	socialist = 9
+	reformed_marxist = 24
+	totalitarian_socialist = 67
+}
+
+
+create_country_leader = {
+	name = "Bo Xilai"
+	desc = "POLITICS_BO_XILAI_DESC"
+	picture = "Portrait_PRC_Bo_Xilai.dds"
+	expire = "1965.1.1"
+	ideology = totalitarian_socialist_ideology
+	traits = {
+		
+	}
+}
+
+create_faction = rangoon_accord_group
+add_to_faction = PRC
+add_to_faction = BRM
+add_to_faction = NEP
+add_to_faction = "PHI"

@@ -1,0 +1,37 @@
+﻿l_english:
+ 
+ #Country Name
+ YUG_fascist:0 "SFR Yugoslavia"
+ YUG_fascist_DEF:0 "The SFR Yugoslavia"
+ YUG_fascist_ADJ:0 "Yugoslavian"
+ YUG_nationalist:0 "SFR Yugoslavia"
+ YUG_nationalist_DEF:0 "The SFR Yugoslavia"
+ YUG_nationalist_ADJ:0 "Yugoslavian"
+ YUG_monarchist:0 "Kingdom of Yugoslavia"
+ YUG_monarchist_DEF:0 "The Kingdom of Yugoslavia"
+ YUG_monarchist_ADJ:0 "Yugoslavian"
+ YUG_social_conservative:0 "SFR Yugoslavia"
+ YUG_social_conservative_DEF:0 "The SFR Yugoslavia"
+ YUG_social_conservative_ADJ:0 "Yugoslavian"
+ YUG_centrist:0 "SFR Yugoslavia"
+ YUG_centrist_DEF:0 "The SFR Yugoslavia"
+ YUG_centrist_ADJ:0 "Yugoslavian"
+ YUG_liberal:0 "SFR Yugoslavia"
+ YUG_liberal_DEF:0 "The SFR Yugoslavia"
+ YUG_liberal_ADJ:0 "Yugoslavian"
+ YUG_social_democrat:0 "SFR Yugoslavia"
+ YUG_social_democrat_DEF:0 "The SFR Yugoslavia"
+ YUG_social_democrat_ADJ:0 "Yugoslavian"
+ YUG_socialist:0 "SFR Yugoslavia"
+ YUG_socialist_DEF:0 "The SFR Yugoslavia"
+ YUG_socialist_ADJ:0 "Yugoslavian"
+ YUG_reformed_marxist:0 "SFR Yugoslavia"
+ YUG_reformed_marxist_DEF:0 "The SFR Yugoslavia"
+ YUG_reformed_marxist_ADJ:0 "Yugoslavian"
+ YUG_totalitarian_socialist:0 "SFR Yugoslavia"
+ YUG_totalitarian_socialist_DEF:0 "The SFR Yugoslavia"
+ YUG_totalitarian_socialist_ADJ:0 "Yugoslavian"
+ 
+ #Faction
+ confederation_of_yugoslavia:0 "SFR Yugoslavia"
+ 

@@ -1,0 +1,26 @@
+state={
+	id=790
+	name="STATE_790" 
+	manpower = 205523
+	
+	state_category = enclave
+
+	history={
+		victory_points = {
+			6626 1 
+		}
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 3
+			6626 = {
+				naval_base = 5
+
+			}
+		}
+	}
+
+	provinces={
+		6626
+	}
+}

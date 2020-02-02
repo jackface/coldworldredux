@@ -1,0 +1,40 @@
+﻿capital = 660
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+
+set_politics = {
+	ruling_party = socialist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 4
+	monarchist = 9
+	social_conservative = 28
+	centrist = 4
+	liberal = 7
+	social_democrat = 5
+	socialist = 31
+	reformed_marxist = 9
+	totalitarian_socialist = 3
+}
+
+create_country_leader = {
+	name = "Martin Ziguélé"
+	desc = "POLITICS_MARTIN_ZIGUELE_DESC"
+	picture = "Portrait_CAR_Martin_Ziguele.dds"
+	expire = "1965.1.1"
+	ideology = democratic_socialist
+	traits = {
+		#
+	}
+}

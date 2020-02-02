@@ -1,0 +1,206 @@
+ideas = {
+
+	country = {
+
+		ENG_lasting_traditionalism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				stability_factor = 0.05
+				political_power_factor = -0.25
+				war_support_factor = 0.10
+				#consumer_goods_factor = 0.15
+			}
+		}
+		
+		ENG_unions_in_shreds = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.15
+				consumer_goods_factor = 0.25
+				max_fuel_factor = -0.45
+				fuel_gain_factor = -0.6
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.5
+			}
+		}
+		
+		ENG_the_troubles = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.15
+				command_power_gain = 0.05
+				experience_gain_army = 0.02
+				defence = -0.1
+				foreign_subversive_activites = 0.25
+				encryption_factor = -0.25
+			}
+		}
+		
+		ENG_a_dead_tradition = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.5
+				stability_factor = -0.15
+				political_power_factor = -0.55
+				war_support_factor = -0.10
+			}
+		}
+		
+		ENG_republican_sympathies = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = -0.05
+				stability_weekly = -0.01
+				war_support_factor = -0.10
+				monarchist_drift = -0.05
+			}
+		}
+		
+	}
+	
+	second_in_command = {
+		
+		ENG_sic_thomas_galbraith = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = social_conservative
+					has_government = centrist
+				} 
+			}
+			
+			traits = { naive_optimist }			
+		}
+		
+	}
+	
+	foreign_minister = {
+		ENG_fom_theresa_brasier = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+					has_government = social_conservative
+					has_government = nationalist
+					has_government = monarchist
+				} 
+				NOT = { has_country_flag = theresa_brasier_dead }
+			}
+			
+			traits = { apologetic_clerk }			
+		}
+	}
+	
+	industry_minister = {
+		ENG_ind_philip_davies = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+					has_government = social_conservative
+					has_government = centrist
+					has_government = nationalist
+					has_government = monarchist
+				} 
+			}
+			
+			traits = { union_buster }			
+		}
+	}
+	
+	national_security_minister = {
+		ENG_nsm_gerald_howarth = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			available = {
+			    OR = {
+				    has_government = fascist
+					has_government = nationalist
+					has_government = monarchist
+					has_government = social_conservative
+				} 
+			}
+			
+			traits = { compassionate_gentleman }			
+		}
+	}
+	
+	intelligence_minister = {
+		ENG_inm_jonathan_evans = {
+		
+		    allowed = {
+			    original_tag = ENG
+			}
+			
+			
+			traits = { intelligence_director }			
+		}
+	}
+}

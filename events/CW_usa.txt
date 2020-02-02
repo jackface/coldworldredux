@@ -1,0 +1,45 @@
+﻿add_namespace = usa
+
+#Release of Toy Story 3
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = toy_story3_release
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = usa.1.o1
+		
+	}
+}
+
+#Ask The Lord - Pete Seeger
+country_event = {
+	id = usa.2
+	title = usa.2.t
+	desc = usa.2.d
+	picture = pete_seeger_old
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = usa.2.o1
+		add_political_power = -15
+	}
+}
+
+#Batman 4: would you like justice with that?
+country_event = {
+	id = usa.3
+	title = usa.3.t
+	desc = usa.3.d
+	picture = batman_4_wyljwt_release
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = usa.3.o1
+	}
+}

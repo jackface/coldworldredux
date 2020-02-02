@@ -1,0 +1,42 @@
+﻿capital = 314
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	ruling_party = reformed_marxist
+	last_election = "1935.1.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 2
+	nationalist = 11
+	monarchist = 1
+	social_conservative = 12
+	centrist = 6
+	liberal = 9
+	social_democrat = 14
+	socialist = 7
+	reformed_marxist = 29
+	totalitarian_socialist = 9
+}
+
+create_country_leader = {
+	name = "Joaquín Villalobos"
+	desc = "POLITICS_JOAQUIN_VILLALOBOS_DESC"
+	picture = "Portrait_ELS_Joaquin_Villalobos.dds"
+	expire = "1965.1.1"
+	ideology = leninist
+	traits = {
+		#
+	}
+}

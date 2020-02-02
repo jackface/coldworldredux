@@ -1,0 +1,32 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			has_government = reformed_marxist
+			ROOT = {
+				OR = {
+					has_government = fascist
+					has_government = centrist
+				}
+			}
+		}
+		AND = {
+			has_government = centrist
+			ROOT = {
+				OR = {
+					has_government = reformed_marxist
+					has_government = fascist
+				}
+			}
+		}
+		AND = {
+			has_government = fascist
+			ROOT = {
+				OR = {
+					has_government = centrist
+					has_government = reformed_marxist
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			#Omani oil concessions to China
+			if = {
+				OMA = {
+					give_resource_rights = { receiver = PRC state = 294 }
+				}
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=791
+	name="STATE_791" 
+	manpower = 104677
+	
+	state_category = town
+
+	history={
+		owner = GRN
+		add_core_of = GRN
+		buildings = {
+			infrastructure = 3
+			11106 = {
+				naval_base = 5
+
+			}
+		}
+	}
+
+	provinces={
+		11106
+	}
+}

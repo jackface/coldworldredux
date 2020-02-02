@@ -1,0 +1,45 @@
+﻿capital = 313
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+set_war_support = 0.1
+set_convoys = 5
+
+
+
+set_politics = {
+	ruling_party = nationalist
+	last_election = "1931.2.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 29
+	monarchist = 0
+	social_conservative = 3
+	centrist = 1
+	liberal = 1
+	social_democrat = 3
+	socialist = 27
+	reformed_marxist = 36
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Efraín Ríos Montt"
+	desc = "POLITICS_EFRAIN_RIOS_MONTT_DESC"
+	picture = "Portrait_GUA_Efraín_Ríos_Montt.dds"
+	expire = "1965.1.1"
+	ideology = nationalist_ideology
+	traits = {
+		#
+	}
+}

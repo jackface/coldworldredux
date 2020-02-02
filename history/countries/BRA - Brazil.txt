@@ -1,0 +1,82 @@
+﻿capital = 500
+
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns"}
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns"}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		mtg_transport = 1
+	}
+}
+create_faction = southern_protection_league
+add_to_faction = BRA
+add_to_faction = VEN
+add_to_faction = SUR
+
+
+
+set_politics = {
+	ruling_party = nationalist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 100
+	monarchist = 0
+	social_conservative = 0
+	centrist = 0
+	liberal = 0
+	social_democrat = 0
+	socialist = 0
+	reformed_marxist = 0
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Enzo Peri" 
+	desc = ""
+	picture = "Portrait_BRA_Enzo_Peri.dds"
+	expire = "1953.3.1"
+	ideology = ultranationalist
+	traits = {
+		
+	}
+}

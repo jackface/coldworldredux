@@ -1,0 +1,41 @@
+﻿capital = 183
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = reformed_marxist
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 0
+	monarchist = 0
+	social_conservative = 0
+	centrist = 0
+	liberal = 0
+	social_democrat = 0
+	socialist = 28
+	reformed_marxist = 72
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Takis Hadjigeorgiou" 
+	desc = ""
+	picture = "Portrait_CYP_Takis_Hadjigeorgiou.dds"
+	expire = "1953.3.1"
+	ideology = leninist
+	traits = {
+		
+	}
+}

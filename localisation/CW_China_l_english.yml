@@ -1,0 +1,46 @@
+﻿l_english:
+ 
+ #Country Name
+ PRC_fascist:0 "Chinese Empire"
+ PRC_fascist_DEF:0 "The Chinese Empire"
+ PRC_fascist_ADJ:0 "Chinese"
+ PRC_nationalist:0 "People's Republic of China"
+ PRC_nationalist_DEF:0 "The People's Republic of China"
+ PRC_nationalist_ADJ:0 "Chinese"
+ PRC_monarchist:0 "Chinese Empire"
+ PRC_monarchist_DEF:0 "The Chinese Empire"
+ PRC_monarchist_ADJ:0 "Chinese"
+ PRC_social_conservative:0 "Republic of China"
+ PRC_social_conservative_DEF:0 "The Republic of China"
+ PRC_social_conservative_ADJ:0 "Chinese"
+ PRC_centrist:0 "Republic of China"
+ PRC_centrist_DEF:0 "The Republic of China"
+ PRC_centrist_ADJ:0 "Chinese"
+ PRC_liberal:0 "Republic of China"
+ PRC_liberal_DEF:0 "The Republic of China"
+ PRC_liberal_ADJ:0 "Chinese"
+ PRC_social_democrat:0 "Republic of China"
+ PRC_social_democrat_DEF:0 "The Republic of China"
+ PRC_social_democrat_ADJ:0 "Chinese"
+ PRC_socialist:0 "People's Republic of China"
+ PRC_socialist_DEF:0 "The People's Republic of China"
+ PRC_socialist_ADJ:0 "Chinese"
+ PRC_reformed_marxist:0 "People's Republic of China"
+ PRC_reformed_marxist_DEF:0 "The People's Republic of China"
+ PRC_reformed_marxist_ADJ:0 "Chinese"
+ PRC_totalitarian_socialist:0 "People's Republic of China"
+ PRC_totalitarian_socialist_DEF:0 "The People's Republic of China"
+ PRC_totalitarian_socialist_ADJ:0 "Chinese"
+ 
+ rangoon_accord_group:0 "Rangoon Accord Group"
+ 
+ #Parties
+ 
+ #Events
+ china.1.t:0 "Learn From Lei Feng Day"
+ china.1.d:0 "The fifth of March, as every good schoolchild knows, is one of the most esteemed holidays in our People’s Republic, Learn from Lei Feng Day. On this day each year, Chinese of all ages, ethnic groups and walks of life come together to remember the example of revolutionary spirit and generous altruism exhibited by the late comrade Lei Feng. Lectures that discuss his life and heroic deeds are given publicly to large crowds most often composed of Chinese youth. Those same lectures are often, in turn, broadcast on the radio and television. The People’s Liberation Army, Communist Youth League and Young Pioneers march through streets and public squares amid a great sea of red banners and portraits that bear the image of the Great Helmsman himself. People take the time out of their day to come together and clean up their neighborhoods, schools and communities as well as perform other acts that improve the quality of public life. In short, all Chinese come together to remember to remember the example of Lei Feng and reaffirm their own collective spirit of unity and self-sacrifice.\n\nLei Feng was a soldier in the People’s Liberation Army who shed his blood for the greater good of his people, his motherland and the great collectivist ideology we all share. Shortly after his death, Lei Feng’s diary was discovered by his commanding officer who presented it to his unit’s party cadres. In it, Feng often extolled the virtues of Mao Zedong and vowed to live out the Chairman’s ideology in his own daily life through acts of kindness and by maintaining an unshakable sense of modesty about himself. The book soon took China by storm and became as common a sight in public as “Quotations from Chairman Mao.” Though he never had the chance to enjoy his popularity in life, Lei Feng has since come to embody everything a good comrade should be and has inspired millions of young people to devote themselves to Mao Zedong Thought. Unfortunately, not all people see the truth about Comrade Lei and the lessons that can be learned from him. Foreign journalists and academics, whose pockets have clearly been lined by the capitalist and revisionist regimes centered in Washington and Moscow respectively, claim that much of Lei Feng’s life story and the entirety of his diary were fabricated by our government for use as propaganda. Some even dare to suggest that Lei Feng was never a real person in the first place but rather a composite of the lives of several different people with greatly exaggerated details. Luckily, such nonsense fails to pollute the hearts and minds of the people, who still strive to follow the example of Comrade Lei."
+ china.1.o1:0 "We will always remember your good example!"
+ 
+ china.2.t:0 "Learn from Lei Feng Day"
+ china.2.d:0 "The fifth of March is upon us again and that means it is Learn from Lei Feng Day, the most revolutionary holiday of the year. All across China people of all races, religions and social standings comes together to remember the life and great example set by Comrade Lei Feng. Though he did not have a long life, Lei dedicated what life he did have to the service of the people, the motherland and Chairman Mao. His posthumously-discovered diary even had long passages dedicated to vows of self-sacrifice and unfailing humility. Word of Lei’s life spread quickly and he soon became the archetype of everything a good comrade should be. We remember him now by volunteering our time to make our homes and communities better as all good comrades should."
+ china.2.o1:0 "We will always remember your good example!"

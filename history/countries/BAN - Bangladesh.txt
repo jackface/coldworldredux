@@ -1,0 +1,42 @@
+﻿capital = 430
+
+#oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = centrist
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	fascist = 0
+	nationalist = 3
+	monarchist = 0
+	social_conservative = 26
+	centrist = 31
+	liberal = 29
+	social_democrat = 4
+	socialist = 6
+	reformed_marxist = 0
+	totalitarian_socialist = 1
+}
+
+create_country_leader = {
+	name = "GM Quader"
+	desc = "POLITICS_GM_Quader_DESC"
+	picture = "Portrait_BAN_GM_Quader.dds"
+	expire = "1965.1.1"
+	ideology = centrist_populist
+	traits = {
+		#
+	}
+}
+
