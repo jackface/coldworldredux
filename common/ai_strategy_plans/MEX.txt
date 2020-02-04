@@ -24,7 +24,7 @@ mexico_historical = {
 		OR = {
 			has_war_with = USA
 			has_government = fascist
-			has_government = reformed_marxist
+			has_government = marxist_humanist
 		}
 	}
 
@@ -48,7 +48,7 @@ mexico_historical = {
 		MEX_focus_agricultural_credit_bank
 		MEX_focus_confederation_of_mexican_workers # Decrease Church Power (2)
 		MEX_focus_rent_freeze
-		MEX_focus_ejido_worker_militias # Reformed Marxist drift
+		MEX_focus_ejido_worker_militias # Marxist-Humanist drift
 		MEX_focus_womens_suffrage # Increase Church Power(3), Democratic drift
 				
 		MEX_focus_spanish_civil_war_refugees
@@ -327,7 +327,7 @@ mexico_fascist_latin_american_order = {
 	}
 }
 
-mexico_reformed_marxist_ussr = {
+mexico_marxist_humanist_ussr = {
 	name = "Mexican Soviet Republic"
 	desc = "Mexico will align itself towards the Soviet Union, spreading the Revolution into Latin America at the tip of a bayonet."
 
@@ -342,15 +342,15 @@ mexico_reformed_marxist_ussr = {
 			}
 			AND = {
 				is_historical_focus_on = yes
-				has_government = reformed_marxist
+				has_government = marxist_humanist
 			}
 		}
 	}
 	ai_national_focuses = {
 		MEX_focus_plan_of_agua_prieta
 		MEX_focus_legacy_of_revolution
-		MEX_focus_the_red_shirts # Reformed Marxist drift
-		MEX_focus_reformed_marxist_revolution # Go Reformed Marxist as soon as possible
+		MEX_focus_the_red_shirts # Marxist-Humanist drift
+		MEX_focus_marxist_humanist_revolution # Go Marxist-Humanist as soon as possible
 		
 		MEX_focus_exile_calles
 		MEX_focus_purge_the_bureaucracy
@@ -365,7 +365,7 @@ mexico_reformed_marxist_ussr = {
 		MEX_focus_agricultural_credit_bank
 		MEX_focus_confederation_of_mexican_workers # Decrease Church Power
 		MEX_focus_rent_freeze
-		MEX_focus_ejido_worker_militias # Reformed Marxist drift
+		MEX_focus_ejido_worker_militias # Marxist-Humanist drift
 		
 		MEX_focus_rural_infrastructure
 		MEX_focus_peripheral_infrastructure
@@ -406,7 +406,7 @@ mexico_reformed_marxist_ussr = {
 	}
 }
 
-mexico_reformed_marxist_bolivarian = {
+mexico_marxist_humanist_bolivarian = {
 	name = "Cárdenismo"
 	desc = "Lázaro Cárdenas and his left-wing successors will create a Bolivarian Alliance and strike at the Yanqui imperialists."
 
@@ -424,7 +424,7 @@ mexico_reformed_marxist_bolivarian = {
 	ai_national_focuses = {
 		MEX_focus_plan_of_agua_prieta
 		MEX_focus_legacy_of_revolution
-		MEX_focus_the_red_shirts # Reformed Marxist drift
+		MEX_focus_the_red_shirts # Marxist-Humanist drift
 
 		MEX_focus_exile_calles
 		MEX_focus_purge_the_bureaucracy
@@ -434,8 +434,8 @@ mexico_reformed_marxist_bolivarian = {
 		MEX_focus_agricultural_credit_bank
 		MEX_focus_confederation_of_mexican_workers # Decrease Church Power
 		MEX_focus_rent_freeze
-		MEX_focus_ejido_worker_militias # Reformed Marxist drift
-		MEX_focus_party_of_the_revolution # Go Reformed Marxist as soon as possible
+		MEX_focus_ejido_worker_militias # Marxist-Humanist drift
+		MEX_focus_party_of_the_revolution # Go Marxist-Humanist as soon as possible
 		
 		MEX_focus_repeal_the_calles_law # Increase Church Power
 		MEX_focus_abolish_capital_punishment

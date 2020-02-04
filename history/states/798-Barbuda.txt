@@ -1,0 +1,24 @@
+state={
+	id=798
+	name="STATE_798" 
+	manpower = 47331
+	
+	state_category = town
+
+	history={
+		owner = LEE
+		add_core_of = LEE
+		
+		buildings = {
+			infrastructure = 4
+			13221= {
+				naval_base = 3
+
+			}
+		}
+	}
+
+	provinces={
+		13221
+	}
+}

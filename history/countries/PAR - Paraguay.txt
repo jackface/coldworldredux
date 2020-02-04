@@ -59,14 +59,14 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = reformed_marxist
+	ruling_party = marxist_humanist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	centrist = 25
-	reformed_marxist = 75
+	marxist_humanist = 75
 }
 
 #create_country_leader = {
@@ -101,7 +101,7 @@ create_country_leader = {
 	}
 	set_popularities = {
 		centrist = 20
-		reformed_marxist = 30
+		marxist_humanist = 30
 		monarchist = 50
 	}
 

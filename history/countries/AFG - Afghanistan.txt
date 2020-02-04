@@ -9,7 +9,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = reformed_marxist
+	ruling_party = marxist_humanist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -24,7 +24,7 @@ set_popularities = {
 	liberal = 4
 	social_democrat = 3
 	socialist = 11
-	reformed_marxist = 32
+	marxist_humanist = 32
 	totalitarian_socialist = 19
 }
 

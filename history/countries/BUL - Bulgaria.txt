@@ -19,7 +19,7 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = reformed_marxist
+	ruling_party = marxist_humanist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -34,7 +34,7 @@ set_popularities = {
 	liberal = 0
 	social_democrat = 0
 	socialist = 0
-	reformed_marxist = 100
+	marxist_humanist = 100
 	totalitarian_socialist = 0
 }
 

@@ -1,0 +1,24 @@
+state={
+	id=796
+	name="STATE_796" 
+	manpower = 25723 #25722
+	
+	state_category = town
+
+	history={
+		owner = LEE
+		add_core_of = LEE
+		
+		buildings = {
+			infrastructure = 2
+			13219= {
+				naval_base = 1
+
+			}
+		}
+	}
+
+	provinces={
+		13219
+	}
+}

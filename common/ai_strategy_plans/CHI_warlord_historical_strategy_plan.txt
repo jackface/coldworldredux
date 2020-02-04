@@ -56,8 +56,8 @@ CHI_warlord_historical_plan_nationalist = {
 
 }
 
-CHI_warlord_historical_plan_reformed_marxist = {
-	name = "Chinese Warlord historical plan supporting Reformed Marxists"
+CHI_warlord_historical_plan_marxist_humanist = {
+	name = "Chinese Warlord historical plan supporting Marxist-Humanists"
 	desc = "Historical behavior for Chinese Warlord"
 
 	enable = {
@@ -75,11 +75,11 @@ CHI_warlord_historical_plan_reformed_marxist = {
 
 	ai_national_focuses = {
 		CHI_secure_internal_politics
-		CHI_cooperation_with_the_reformed_marxists
+		CHI_cooperation_with_the_marxist_humanists
 		CHI_land_redistribution
 		CHI_land_value_tax
 		CHI_judiciary_reforms
-		CHI_reformed_marxist_administrators
+		CHI_marxist_humanist_administrators
 		CHI_industrial_investment
 		CHI_public_education_reform
 		CHI_local_arms_production

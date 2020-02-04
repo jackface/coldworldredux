@@ -235,7 +235,7 @@ HUN_alternate_FAS = {
 }
 
 HUN_alternate_COM = {
-	name = "Hungarian Alternate plan to become reformed_marxist"
+	name = "Hungarian Alternate plan to become marxist_humanist"
 	desc = ""
 
 	enable = {

@@ -60,7 +60,7 @@ if = {
 	}
 }
 
-set_popularities = {	centrist = 25	reformed_marxist = 75
+set_popularities = {	centrist = 25	marxist_humanist = 75
 }
 
 create_country_leader = {

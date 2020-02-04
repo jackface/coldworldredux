@@ -74,7 +74,7 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-set_popularities = {	centrist = 33	reformed_marxist = 33	monarchist = 34
+set_popularities = {	centrist = 33	marxist_humanist = 33	monarchist = 34
 }
 
 create_country_leader = {

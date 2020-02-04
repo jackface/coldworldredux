@@ -1,0 +1,24 @@
+state={
+	id=797
+	name="STATE_797" 
+	manpower = 25722
+	
+	state_category = tiny_island
+
+	history={
+		owner = LEE
+		add_core_of = LEE
+		
+		buildings = {
+			infrastructure = 1
+			13220= {
+				naval_base = 1
+
+			}
+		}
+	}
+
+	provinces={
+		13220
+	}
+}

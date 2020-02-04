@@ -136,8 +136,8 @@ JAP_manchukuo_player_historical_plan = {
 	}
 
 }
-JAP_alternate_plan_reformed_marxist = {
-	name = "Reformed Marxist Japan Plan"
+JAP_alternate_plan_marxist_humanist = {
+	name = "Marxist-Humanist Japan Plan"
 	desc = "A red sun rises"
 
 	enable = {
@@ -174,7 +174,7 @@ JAP_alternate_plan_reformed_marxist = {
 		JAP_fighter_modernization
 		JAP_agility_focus
 		JAP_new_naval_estimates
-		JAP_reformed_marxist_volunteers
+		JAP_marxist_humanist_volunteers
 		JAP_tokyo_aluminum_plant
 		JAP_carrier_warfare_experiments
 		JAP_first_air_fleet
@@ -182,7 +182,7 @@ JAP_alternate_plan_reformed_marxist = {
 		JAP_unified_fighter_development
 		JAP_expand_the_snlf
 		JAP_finish_the_fight
-		JAP_asian_reformed_marxist_solidarity
+		JAP_asian_marxist_humanist_solidarity
 		JAP_cruiser_modernization
 		JAP_long_lance_torpedoes
 		JAP_torpedo_cruisers
@@ -313,8 +313,8 @@ JAP_alternate_plan_centrist = {
 		JAP_modern_artillery
 		JAP_armored_divisions
 		JAP_liberate_manchuria
-		JAP_anti_reformed_marxist_bulwark
-		JAP_anti_reformed_marxist_volunteers
+		JAP_anti_marxist_humanist_bulwark
+		JAP_anti_marxist_humanist_volunteers
 		#1941
 		JAP_ultimate_deterrence
 		JAP_modern_escorts

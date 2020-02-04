@@ -110,7 +110,7 @@ POL_THEME_KINGS = {
 	for_countries = { POL }
 
 	can_use = { 
-		not = { has_government = reformed_marxist }
+		not = { has_government = marxist_humanist }
 	}
 
 	type = ship
@@ -142,7 +142,7 @@ POL_THEME_HISTORICAL_FIGURES = {
 	for_countries = { POL }
 
 	can_use = { 
-		not = { has_government = reformed_marxist }
+		not = { has_government = marxist_humanist }
 	}
 
 	type = ship

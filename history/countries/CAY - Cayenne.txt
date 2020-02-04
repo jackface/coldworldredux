@@ -53,7 +53,7 @@ set_politics = {
 set_popularities = {
 	centrist = 75
 	fascist = 1
-	reformed_marxist = 1
+	marxist_humanist = 1
 	monarchist = 23
 }
 #create_country_leader = {

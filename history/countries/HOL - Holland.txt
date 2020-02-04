@@ -60,7 +60,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = reformed_marxist
+	ruling_party = marxist_humanist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -75,7 +75,7 @@ set_popularities = {
 	liberal = 5
 	social_democrat = 15
 	socialist = 11
-	reformed_marxist = 41
+	marxist_humanist = 41
 	totalitarian_socialist = 2
 }
 

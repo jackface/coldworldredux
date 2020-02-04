@@ -969,7 +969,7 @@
  RANDOM_EFFECT:0 "§T$CHANCE|%0H$ chance of §!"
  ---_democratic:0 "any democratic country"
  ---_fascist:0 "any fascist country"
- ---_reformed_marxist:0 "any reformed_marxist country"
+ ---_marxist_humanist:0 "any marxist_humanist country"
  DETAILS:0 "Details"
  EQUIPMENT_DETAILS:0 "Equipment details"
  SUNK_SHIP_DETAILS:0 "Lost ships"

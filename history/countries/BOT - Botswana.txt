@@ -26,7 +26,7 @@ set_popularities = {
 	liberal = 5
 	social_democrat = 23
 	socialist = 21
-	reformed_marxist = 3
+	marxist_humanist = 3
 	totalitarian_socialist = 2
 }
 

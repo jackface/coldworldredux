@@ -31,8 +31,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "reformed_marxist_ensemble"
-		texturefile = "gfx/event_pictures/report_event/reformed_marxist_ensemble.dds"
+		name = "marxist_humanist_ensemble"
+		texturefile = "gfx/event_pictures/report_event/marxist_humanist_ensemble.dds"
 	}
 	
 	spriteType = {
@@ -539,8 +539,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "reformed_marxists_purged_america"
-		texturefile = "gfx/event_pictures/report_event/reformed_marxists_purged_america.dds"
+		name = "marxist_humanists_purged_america"
+		texturefile = "gfx/event_pictures/report_event/marxist_humanists_purged_america.dds"
 	}
 	
 	spriteType = {
@@ -639,8 +639,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "miami_reformed_marxist_attack"
-		texturefile = "gfx/event_pictures/report_event/miami_reformed_marxist_attack.dds"
+		name = "miami_marxist_humanist_attack"
+		texturefile = "gfx/event_pictures/report_event/miami_marxist_humanist_attack.dds"
 	}
 	
 	spriteType = {
@@ -864,8 +864,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "ethiopian_reformed_marxist_flag"
-		texturefile = "gfx/event_pictures/report_event/ethiopian_reformed_marxist_flag.dds"
+		name = "ethiopian_marxist_humanist_flag"
+		texturefile = "gfx/event_pictures/report_event/ethiopian_marxist_humanist_flag.dds"
 	}
 	
 	spriteType = {
@@ -1231,8 +1231,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "british_reformed_marxist_support"
-		texturefile = "gfx/event_pictures/report_event/british_reformed_marxist_support.dds"
+		name = "british_marxist_humanist_support"
+		texturefile = "gfx/event_pictures/report_event/british_marxist_humanist_support.dds"
 	}
 	
 	spriteType = {
@@ -1486,8 +1486,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "reformed_marxist_ministries"
-		texturefile = "gfx/event_pictures/report_event/reformed_marxist_ministries.dds"
+		name = "marxist_humanist_ministries"
+		texturefile = "gfx/event_pictures/report_event/marxist_humanist_ministries.dds"
 	}
 	
 	spriteType = {
@@ -1601,6 +1601,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "breakdown_of_parliament"
+		texturefile = "gfx/event_pictures/report_event/breakdown_of_parliament.dds"
+	}
+	
+	spriteType = {
 		name = "2010_leadership_race_tory"
 		texturefile = "gfx/event_pictures/report_event/2010_leadership_race_tory.dds"
 	}
@@ -1696,8 +1701,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "libya_reformed_marxists_concerns"
-		texturefile = "gfx/event_pictures/report_event/libya_reformed_marxists_concerns.dds"
+		name = "libya_marxist_humanists_concerns"
+		texturefile = "gfx/event_pictures/report_event/libya_marxist_humanists_concerns.dds"
 	}
 	
 	spriteType = {
@@ -1711,8 +1716,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "tunisian_reformed_marxist_party"
-		texturefile = "gfx/event_pictures/report_event/tunisian_reformed_marxist_party.dds"
+		name = "tunisian_marxist_humanist_party"
+		texturefile = "gfx/event_pictures/report_event/tunisian_marxist_humanist_party.dds"
 	}
 	
 	spriteType = {
@@ -1776,8 +1781,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "libyan_reformed_marxists"
-		texturefile = "gfx/event_pictures/report_event/libyan_reformed_marxists.dds"
+		name = "libyan_marxist_humanists"
+		texturefile = "gfx/event_pictures/report_event/libyan_marxist_humanists.dds"
 	}
 	
 	spriteType = {
@@ -1841,8 +1846,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "reformed_marxist_party_declares_crisis"
-		texturefile = "gfx/event_pictures/report_event/reformed_marxist_party_declares_crisis.dds"
+		name = "marxist_humanist_party_declares_crisis"
+		texturefile = "gfx/event_pictures/report_event/marxist_humanist_party_declares_crisis.dds"
 	}
 	
 	spriteType = {
@@ -1941,13 +1946,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "algerian_reformed_marxist_rebellion"
-		texturefile = "gfx/event_pictures/report_event/algerian_reformed_marxist_rebellion.dds"
+		name = "algerian_marxist_humanist_rebellion"
+		texturefile = "gfx/event_pictures/report_event/algerian_marxist_humanist_rebellion.dds"
 	}
 	
 	spriteType = {
-		name = "moroccan_reformed_marxist_rebellion"
-		texturefile = "gfx/event_pictures/report_event/moroccan_reformed_marxist_rebellion.dds"
+		name = "moroccan_marxist_humanist_rebellion"
+		texturefile = "gfx/event_pictures/report_event/moroccan_marxist_humanist_rebellion.dds"
 	}
 	
 	spriteType = {
@@ -2016,8 +2021,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "president_appeases_radical_reformed_marxists"
-		texturefile = "gfx/event_pictures/report_event/president_appeases_radical_reformed_marxists.dds"
+		name = "president_appeases_radical_marxist_humanists"
+		texturefile = "gfx/event_pictures/report_event/president_appeases_radical_marxist_humanists.dds"
 	}
 	
 	spriteType = {
@@ -2071,8 +2076,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "president_denounces_euroreformed_marxists"
-		texturefile = "gfx/event_pictures/report_event/president_denounces_euroreformed_marxists.dds"
+		name = "president_denounces_euromarxist_humanists"
+		texturefile = "gfx/event_pictures/report_event/president_denounces_euromarxist_humanists.dds"
 	}
 	
 	spriteType = {
@@ -2611,8 +2616,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "american_reformed_marxist_party"
-		texturefile = "gfx/event_pictures/report_event/american_reformed_marxist_party.dds"
+		name = "american_marxist_humanist_party"
+		texturefile = "gfx/event_pictures/report_event/american_marxist_humanist_party.dds"
 	}
 	
 	spriteType = {
@@ -2846,8 +2851,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "american_reformed_marxist_party_banned"
-		texturefile = "gfx/event_pictures/report_event/american_reformed_marxist_party_banned.dds"
+		name = "american_marxist_humanist_party_banned"
+		texturefile = "gfx/event_pictures/report_event/american_marxist_humanist_party_banned.dds"
 	}
 	
 	spriteType = {
@@ -2886,8 +2891,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "bernie_meets_reformed_marxists"
-		texturefile = "gfx/event_pictures/report_event/bernie_meets_reformed_marxists.dds"
+		name = "bernie_meets_marxist_humanists"
+		texturefile = "gfx/event_pictures/report_event/bernie_meets_marxist_humanists.dds"
 	}
 	
 	spriteType = {
@@ -2901,8 +2906,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "reformed_marxist_volunteers_civil_war"
-		texturefile = "gfx/event_pictures/report_event/reformed_marxist_volunteers_civil_war.dds"
+		name = "marxist_humanist_volunteers_civil_war"
+		texturefile = "gfx/event_pictures/report_event/marxist_humanist_volunteers_civil_war.dds"
 	}
 	
 	spriteType = {
@@ -3998,13 +4003,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "syrian_reformed_marxist_propaganda"
-		texturefile = "gfx/event_pictures/report_event/syrian_reformed_marxist_propaganda.dds"
+		name = "syrian_marxist_humanist_propaganda"
+		texturefile = "gfx/event_pictures/report_event/syrian_marxist_humanist_propaganda.dds"
 	}
 	
 	spriteType = {
-		name = "syria_reformed_marxist_revolution"
-		texturefile = "gfx/event_pictures/report_event/syria_reformed_marxist_revolution.dds"
+		name = "syria_marxist_humanist_revolution"
+		texturefile = "gfx/event_pictures/report_event/syria_marxist_humanist_revolution.dds"
 	}
 	
 	spriteType = {
@@ -4313,8 +4318,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "egypt_anti_reformed_marxist_protestors_crushed"
-		texturefile = "gfx/event_pictures/report_event/egypt_anti_reformed_marxist_protestors_crushed.dds"
+		name = "egypt_anti_marxist_humanist_protestors_crushed"
+		texturefile = "gfx/event_pictures/report_event/egypt_anti_marxist_humanist_protestors_crushed.dds"
 	}
 	
 	spriteType = {
@@ -4658,8 +4663,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/india_trucks.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_flags"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_flags.dds"
+		name = "india_marxist_humanist_flags"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_flags.dds"
 	}
 	spriteType = {
 		name = "india_smog_street_scene"
@@ -4924,8 +4929,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/india_singh_labour_strikes.dds"
 	}
 	spriteType = {
-		name = "india_singh_reformed_marxist_walkout"
-		texturefile = "gfx/event_pictures/report_event/india_singh_reformed_marxist_walkout.dds"
+		name = "india_singh_marxist_humanist_walkout"
+		texturefile = "gfx/event_pictures/report_event/india_singh_marxist_humanist_walkout.dds"
 	}
 	spriteType = {
 		name = "india_singh_loan"
@@ -5209,8 +5214,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/india_north_east_secession.dds"
 	}
 	spriteType = {
-		name = "india_troops_open_fire_reformed_marxist"
-		texturefile = "gfx/event_pictures/report_event/india_troops_open_fire_reformed_marxist.dds"
+		name = "india_troops_open_fire_marxist_humanist"
+		texturefile = "gfx/event_pictures/report_event/india_troops_open_fire_marxist_humanist.dds"
 	}
 	spriteType = {
 		name = "india_com_rioting"
@@ -5233,60 +5238,60 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/india_naxalite_counterinsurgency_walkout.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_army_purges"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_army_purges.dds"
+		name = "india_marxist_humanist_army_purges"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_army_purges.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_state_press"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_state_press.dds"
+		name = "india_marxist_humanist_state_press"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_state_press.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_yechury"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_yechury.dds"
+		name = "india_marxist_humanist_cult_yechury"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_yechury.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_yechury_opposition"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_yechury_opposition.dds"
+		name = "india_marxist_humanist_cult_yechury_opposition"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_yechury_opposition.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_yechury_opposition_purged"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_yechury_opposition_purged.dds"
+		name = "india_marxist_humanist_cult_yechury_opposition_purged"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_yechury_opposition_purged.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_yechury_opposition_revolt"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_yechury_opposition_revolt.dds"
+		name = "india_marxist_humanist_cult_yechury_opposition_revolt"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_yechury_opposition_revolt.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_yechury_opposition_discussions"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_yechury_opposition_discussions.dds"
+		name = "india_marxist_humanist_cult_yechury_opposition_discussions"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_yechury_opposition_discussions.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_yechury_opposition_discussions_nowhere"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_yechury_opposition_discussions_nowhere.dds"
+		name = "india_marxist_humanist_cult_yechury_opposition_discussions_nowhere"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_yechury_opposition_discussions_nowhere.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_yechury_opposition_discussions_undermined"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_yechury_opposition_discussions_undermined.dds"
+		name = "india_marxist_humanist_cult_yechury_opposition_discussions_undermined"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_yechury_opposition_discussions_undermined.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_yechury_ousted"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_yechury_ousted.dds"
+		name = "india_marxist_humanist_cult_yechury_ousted"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_yechury_ousted.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_cult_change"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_cult_change.dds"
+		name = "india_marxist_humanist_cult_change"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_cult_change.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_new_leader"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_new_leader.dds"
+		name = "india_marxist_humanist_new_leader"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_new_leader.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_karat_cult"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_karat_cult.dds"
+		name = "india_marxist_humanist_karat_cult"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_karat_cult.dds"
 	}
 	spriteType = {
-		name = "india_reformed_marxist_karat_ousted"
-		texturefile = "gfx/event_pictures/report_event/india_reformed_marxist_karat_ousted.dds"
+		name = "india_marxist_humanist_karat_ousted"
+		texturefile = "gfx/event_pictures/report_event/india_marxist_humanist_karat_ousted.dds"
 	}
 	spriteType = {
 		name = "india_gmon_inaugeration"
@@ -5845,8 +5850,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/india_com_bangladesh_purged_denouncement_denied.dds"
 	}
 	spriteType = {
-		name = "india_com_pakistan_reformed_marxists"
-		texturefile = "gfx/event_pictures/report_event/india_com_pakistan_reformed_marxists.dds"
+		name = "india_com_pakistan_marxist_humanists"
+		texturefile = "gfx/event_pictures/report_event/india_com_pakistan_marxist_humanists.dds"
 	}
 	spriteType = {
 		name = "india_com_pakistan_civil_war"
@@ -5865,8 +5870,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/india_rss_kerala_violence.dds"
 	}
 	spriteType = {
-		name = "india_rss_reformed_marxist_denouncement_kerala"
-		texturefile = "gfx/event_pictures/report_event/india_rss_reformed_marxist_denouncement_kerala.dds"
+		name = "india_rss_marxist_humanist_denouncement_kerala"
+		texturefile = "gfx/event_pictures/report_event/india_rss_marxist_humanist_denouncement_kerala.dds"
 	}
 	spriteType = {
 		name = "india_rss_jaitley_dead"
@@ -6581,8 +6586,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event/india_civwar_nagalim_kogajc_expand_dong.dds"
 	}
 	spriteType = {
-		name = "india_civwar_manipur_reformed_marxist"
-		texturefile = "gfx/event_pictures/report_event/india_civwar_manipur_reformed_marxist.dds"
+		name = "india_civwar_manipur_marxist_humanist"
+		texturefile = "gfx/event_pictures/report_event/india_civwar_manipur_marxist_humanist.dds"
 	}
 	spriteType = {
 		name = "india_civwar_assam"

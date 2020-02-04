@@ -183,7 +183,7 @@ ROM_dominance = {
 
 }
 
-ROM_reformed_marxist = {
+ROM_marxist_humanist = {
 	name = "Romanian plan to side with SOV"
 	desc = ""
 
@@ -201,7 +201,7 @@ ROM_reformed_marxist = {
 	abort = {
 		is_subject = yes
 		OVERLORD = {
-			not = { has_government = reformed_marxist }
+			not = { has_government = marxist_humanist }
 		}
 	}
 

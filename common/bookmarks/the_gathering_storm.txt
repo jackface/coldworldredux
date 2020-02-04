@@ -33,7 +33,7 @@ bookmarks = {
 		}
 		"SOV"={
 			history = "SOV_COLD_WORLD_DESC"
-			ideology = reformed_marxist
+			ideology = marxist_humanist
 			ideas = {
 				
 			}

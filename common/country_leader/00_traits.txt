@@ -1058,7 +1058,7 @@ leader_traits = {
 		}
 	}
 
-	protector_of_the_campesinos = { #reformed_marxist Cardenas (land reformer)
+	protector_of_the_campesinos = { #marxist_humanist Cardenas (land reformer)
 		random = no
 		production_speed_industrial_complex_factor = 0.1
 		production_speed_infrastructure_factor = 0.1
@@ -1137,10 +1137,10 @@ leader_traits = {
 		}
 	}
 
-	anti_reformed_marxist = {
+	anti_marxist_humanist = {
 		random = no
-		reformed_marxist_acceptance = -50
-		reformed_marxist_drift = -0.01
+		marxist_humanist_acceptance = -50
+		marxist_humanist_drift = -0.01
 
 		ai_will_do = {
 			factor = 1
@@ -1255,10 +1255,10 @@ leader_traits = {
 		army_core_defence_factor = 0.1
 	}
 	
-	red_army_organizer = { # Trotsky's trait if invited to join the Mexican government. Combines effects of Genius Army Organizer and Reformed Marxist Revolutionary
+	red_army_organizer = { # Trotsky's trait if invited to join the Mexican government. Combines effects of Genius Army Organizer and Marxist-Humanist Revolutionary
 		sprite = 12
 		army_org_factor = 0.12
-		reformed_marxist_drift = 0.1
+		marxist_humanist_drift = 0.1
 		
 		ai_will_do = {
 			factor = 2
@@ -1329,7 +1329,7 @@ leader_traits = {
 	disdain_for_politicians_1 = {
 		random = no
 		political_power_factor = 0.05
-		reformed_marxist_drift = -0.01
+		marxist_humanist_drift = -0.01
 		fascist_drift = -0.01
 		centrist_drift = -0.01
 	}
@@ -1337,7 +1337,7 @@ leader_traits = {
 	disdain_for_politicians_2 = {
 		random = no
 		political_power_factor = 0.1
-		reformed_marxist_drift = -0.02
+		marxist_humanist_drift = -0.02
 		fascist_drift = -0.02
 		centrist_drift = -0.02
 	}
@@ -1360,7 +1360,7 @@ leader_traits = {
 		subversive_activites_upkeep = -0.5
 	}
 
-	veteran_reformed_marxist = {
+	veteran_marxist_humanist = {
 		random = no
 		stability_factor = 0.05
 		industrial_capacity_factory = 0.05
@@ -1369,11 +1369,11 @@ leader_traits = {
 	### IDEA TRAITS ###
 	
 	# drift is a percent applied weekly
-	reformed_marxist_revolutionary = {
+	marxist_humanist_revolutionary = {
 		random = no
 		# Boosts Communism
 		sprite = 13
-		reformed_marxist_drift = 0.1
+		marxist_humanist_drift = 0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -1466,7 +1466,7 @@ leader_traits = {
 		random = no
 		sprite = 13
 
-		reformed_marxist_drift = 0.1
+		marxist_humanist_drift = 0.1
 		consumer_goods_factor = -0.05
 		
 		ai_will_do = {
@@ -1482,10 +1482,10 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	anti_reformed_marxist_crusader = {
+	anti_marxist_humanist_crusader = {
 		sprite = 13
 		stability_factor = 0.05
-		reformed_marxist_drift = -0.1
+		marxist_humanist_drift = -0.1
 
 		ai_will_do = {
 			factor = 1
@@ -1865,7 +1865,7 @@ leader_traits = {
 		sprite = 13
 
 		war_support_factor = 0.1
-		reformed_marxist_drift = 0.1
+		marxist_humanist_drift = 0.1
 		
 		ai_will_do = {
 			factor = 1
@@ -1919,7 +1919,7 @@ leader_traits = {
 		}
 	}
 
-	council_reformed_marxist = {
+	council_marxist_humanist = {
 		random = no
 		sprite = 13
 
@@ -1944,13 +1944,13 @@ leader_traits = {
 		}
 	}
 
-	colonial_reformed_marxist = {
+	colonial_marxist_humanist = {
 		random = no
 		sprite = 13
 
 		non_core_manpower = 0.02
 		weekly_manpower = 250
-		reformed_marxist_drift = 0.05
+		marxist_humanist_drift = 0.05
 		
 		ai_will_do = {
 			factor = 1

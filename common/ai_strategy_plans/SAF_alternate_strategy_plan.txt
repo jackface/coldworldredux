@@ -105,8 +105,8 @@ SAF_alternate_centrist = {
 
 }
 
-SAF_alternate_reformed_marxist = {
-	name = "South African reformed_marxist plan"
+SAF_alternate_marxist_humanist = {
+	name = "South African marxist_humanist plan"
 	desc = ""
 
 	enable = {

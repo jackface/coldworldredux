@@ -322,7 +322,7 @@ USA_protect_against_extremism = { # Reverse strategy
 		USA = {
 			has_government = centrist
 		}
-		NOT = { has_government = reformed_marxist }
+		NOT = { has_government = marxist_humanist }
 		NOT = { has_government = fascist }
 		OR = {
 			capital_scope = {
@@ -337,7 +337,7 @@ USA_protect_against_extremism = { # Reverse strategy
 			NOT = { tag = USA }
 			has_war_with = ROOT
 			OR = {
-				has_government = reformed_marxist
+				has_government = marxist_humanist
 				has_government = fascist
 			}
 		}
@@ -347,7 +347,7 @@ USA_protect_against_extremism = { # Reverse strategy
 		OR = {
 			has_war = no
 			OR = {
-				has_government = reformed_marxist
+				has_government = marxist_humanist
 				has_government = fascist
 			}
 			USA = {

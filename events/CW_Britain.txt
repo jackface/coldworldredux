@@ -234,7 +234,7 @@ country_event = {
 	id = britain.11
 	title = britain.11.t
 	desc = britain.11.d
-	#picture = 
+	picture = breakdown_of_parliament
 	
 	is_triggered_only = yes
 	

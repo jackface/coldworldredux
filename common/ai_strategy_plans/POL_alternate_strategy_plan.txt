@@ -1,5 +1,5 @@
-POL_reformed_marxist_plan = {
-	name = "POL reformed_marxist plan"
+POL_marxist_humanist_plan = {
+	name = "POL marxist_humanist plan"
 	desc = ""
 
 	enable = {

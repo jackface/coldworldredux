@@ -11,7 +11,7 @@ set_war_support = 0.1
 set_convoys = 5
 
 set_politics = {
-	ruling_party = reformed_marxist
+	ruling_party = marxist_humanist
 	last_election = "1935.1.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -26,7 +26,7 @@ set_popularities = {
 	liberal = 9
 	social_democrat = 14
 	socialist = 7
-	reformed_marxist = 29
+	marxist_humanist = 29
 	totalitarian_socialist = 9
 }
 

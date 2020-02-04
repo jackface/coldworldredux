@@ -90,7 +90,7 @@ set_popularities = {
 	liberal = 3
 	social_democrat = 11
 	socialist = 14
-	reformed_marxist = 24
+	marxist_humanist = 24
 	totalitarian_socialist = 0
 }
 

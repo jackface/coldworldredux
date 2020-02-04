@@ -33,11 +33,11 @@ German_historical = {
 				}
 			}
 			SWE = {
-				has_government = reformed_marxist #prio 1, crush Sweden
+				has_government = marxist_humanist #prio 1, crush Sweden
 			}
 			SOV = {
 				NOT = {
-					has_government = reformed_marxist
+					has_government = marxist_humanist
 				}
 			}
 			ENG = {

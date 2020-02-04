@@ -13,7 +13,7 @@ ITA_alternate_plan_1 = {
 	abort = {
 		OR = {
 			GER = { has_completed_focus = GER_reestablish_free_elections }
-			GER = { has_completed_focus = GER_expatriate_the_reformed_marxists }
+			GER = { has_completed_focus = GER_expatriate_the_marxist_humanists }
 			GER = { has_completed_focus = GER_assassinate_mussolini }
 		}
 	}
@@ -235,7 +235,7 @@ ITA_alternate_plan_3 = {
 
 ITA_alternate_plan_4 = {
 	name = "Italy alternate plan 4: Italy Alone"
-	desc = "Behavior for Italy if Germany goes centrist, and France has gone reformed_marxist, or if Germany goes with Britain and France has gone Reformed Marxist."
+	desc = "Behavior for Italy if Germany goes centrist, and France has gone marxist_humanist, or if Germany goes with Britain and France has gone Marxist-Humanist."
 
 	enable = {
 		original_tag = ITA
@@ -251,7 +251,7 @@ ITA_alternate_plan_4 = {
 					FRA = { has_completed_focus = FRA_support_the_left }
 				}
 			}
-			GER = { has_completed_focus = GER_expatriate_the_reformed_marxists }
+			GER = { has_completed_focus = GER_expatriate_the_marxist_humanists }
 		}
 	}
 	abort = {

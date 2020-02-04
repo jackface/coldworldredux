@@ -70,7 +70,7 @@ set_politics = {
 set_popularities = {
 	centrist = 92
 	fascist = 3
-	reformed_marxist = 5
+	marxist_humanist = 5
 }
 
 1939.1.1 = {

@@ -5,7 +5,7 @@ ideas = {
 
 	army_chief = {
 		
-		#Reformed Marxist
+		#Marxist-Humanist
 
 		CHI_zhu_de = {
 			
@@ -77,7 +77,7 @@ ideas = {
 	air_chief = {
 		
 		
-		#Reformed Marxist
+		#Marxist-Humanist
 		#Fang Zeyi
 		#army_aviation_doctrine
 
@@ -123,7 +123,7 @@ ideas = {
 	
 	navy_chief = {
 		
-		#Reformed Marxist
+		#Marxist-Humanist
 
 		CHI_xiao_jinguang = {
 			

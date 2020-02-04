@@ -135,7 +135,7 @@ set_politics = {
 }
 set_popularities = {
 	monarchist = 99
-	reformed_marxist = 1
+	marxist_humanist = 1
 }
 
 add_ideas = {

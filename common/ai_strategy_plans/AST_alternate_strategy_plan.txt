@@ -229,8 +229,8 @@ AST_alternate_fascist = {
 
 }
 
-AST_alternate_reformed_marxist = {
-	name = "Australia goes reformed_marxist"
+AST_alternate_marxist_humanist = {
+	name = "Australia goes marxist_humanist"
 	desc = ""
 
 	enable = {

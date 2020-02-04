@@ -447,8 +447,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_reformed_marxist_group"
-		texturefile = "gfx/interface/ideologies/reformed_marxist.dds"
+		name = "GFX_ideology_marxist_humanist_group"
+		texturefile = "gfx/interface/ideologies/marxist_humanist.dds"
 	}
 	
 	spriteType = {

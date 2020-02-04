@@ -1,6 +1,6 @@
 PRC_historical_plan = {
-	name = "Reformed Marxist China historical plan"
-	desc = "Historical behavior for Reformed Marxist China"
+	name = "Marxist-Humanist China historical plan"
+	desc = "Historical behavior for Marxist-Humanist China"
 
 	enable = {
 		original_tag = PRC
@@ -26,14 +26,14 @@ PRC_historical_plan = {
 		}
 		OR = {
 			JAP = {
-				has_government = reformed_marxist
+				has_government = marxist_humanist
 			}
 			USA = {
-				has_government = reformed_marxist
+				has_government = marxist_humanist
 			}
 			NOT = {
 				any_other_country = {
-					has_government = reformed_marxist
+					has_government = marxist_humanist
 					is_major = yes
 				}
 			}

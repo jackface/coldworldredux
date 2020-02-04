@@ -36,11 +36,11 @@ if = {
 		#}
 		
 		#complete_national_focus = CHI_secure_internal_politics
-		#complete_national_focus = CHI_cooperation_with_the_reformed_marxists
+		#complete_national_focus = CHI_cooperation_with_the_marxist_humanists
 		#complete_national_focus = CHI_land_redistribution
 		#complete_national_focus = CHI_land_value_tax
 		#complete_national_focus = CHI_judiciary_reforms
-		#complete_national_focus = CHI_reformed_marxist_administrators
+		#complete_national_focus = CHI_marxist_humanist_administrators
 		#complete_national_focus = CHI_industrial_investment
 		#complete_national_focus = CHI_public_education_reform
 		#complete_national_focus = CHI_local_arms_production

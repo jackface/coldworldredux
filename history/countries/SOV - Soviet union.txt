@@ -76,7 +76,7 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = reformed_marxist
+	ruling_party = marxist_humanist
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -90,7 +90,7 @@ set_popularities = {
 	liberal = 0
 	social_democrat = 0
 	socialist = 5
-	reformed_marxist = 92
+	marxist_humanist = 92
 	totalitarian_socialist = 3
 }
 

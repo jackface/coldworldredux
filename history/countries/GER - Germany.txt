@@ -107,7 +107,7 @@ set_popularities = {
 	liberal = 17
 	social_democrat = 15
 	socialist = 11
-	reformed_marxist = 3
+	marxist_humanist = 3
 	totalitarian_socialist = 2
 }
 
@@ -136,7 +136,7 @@ create_country_leader = {
 	desc = "POLITICS_RUDI_DUTSCHKE_DESC"
 	picture = "Portrait_GER_Rudi_Dutschke.dds"
 	expire = "1965.1.1"
-	ideology = christian_reformed_marxist
+	ideology = christian_marxist_humanist
 	traits = {
 	}
 }

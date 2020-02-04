@@ -175,7 +175,7 @@ ideas = {
 			}
 		}
 		
-		reformed_marxist_influence = {
+		marxist_humanist_influence = {
 			
 			
 			allowed = {
@@ -266,7 +266,7 @@ ideas = {
 			}
 		}
 		
-		reformed_marxist_pressure = {
+		marxist_humanist_pressure = {
 			
 			
 			allowed = {
@@ -1676,7 +1676,7 @@ ideas = {
 					has_government = monarchist
 					
 					has_government = totalitarian_socialist
-					has_government = reformed_marxist
+					has_government = marxist_humanist
 				} 
 			}
 			
@@ -1843,7 +1843,7 @@ ideas = {
 					has_government = liberal 
 					has_government = social_democrat 
 					has_government = socialist
-					has_government = reformed_marxist
+					has_government = marxist_humanist
 					has_government = totalitarian_socialist
 				} 
 			}
@@ -1901,7 +1901,7 @@ ideas = {
 					has_government = liberal 
 					has_government = social_democrat 
 					has_government = socialist
-					has_government = reformed_marxist
+					has_government = marxist_humanist
 				} 
 			}
 			
@@ -2203,7 +2203,7 @@ ideas = {
 					has_government = monarchist
 					
 					has_government = totalitarian_socialist
-					has_government = reformed_marxist
+					has_government = marxist_humanist
 				}
 			}
 			

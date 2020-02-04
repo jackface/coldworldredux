@@ -440,17 +440,17 @@ ideologies = {
 		
 	}
 	
-	reformed_marxist = {
+	marxist_humanist = {
 		
 		types = {
 		
 			marxist = {
 			}
 			
-			american_reformed_marxist = {
+			american_marxist_humanist = {
 			}
 			
-			christian_reformed_marxist = {
+			christian_marxist_humanist = {
 			}
 		
 			leninist = {

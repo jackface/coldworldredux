@@ -87,7 +87,7 @@ CZE_alternate_strategy_plan_entente = {
 
 }
 
-CZE_alternate_strategy_plan_reformed_marxist = {
+CZE_alternate_strategy_plan_marxist_humanist = {
 	name = "CZE aims to be a good little people's republic"
 	desc = "Let's all be comrades!"
 
@@ -115,13 +115,13 @@ CZE_alternate_strategy_plan_reformed_marxist = {
 		CZE_balanced_3
 		CZE_united_population
 		CZE_military_research_institute
-		CZE_reformed_marxist_support
+		CZE_marxist_humanist_support
 		CZE_arms_exports_1
 		CZE_czech_socialist_ideology
 		CZE_arms_exports_2
 		CZE_arms_exports_3
 		CZE_join_comintern
-		CZE_reformed_marxist_with_a_human_face
+		CZE_marxist_humanist_with_a_human_face
 		CZE_the_romanian_question
 		CZE_bonus_research_slot_1
 	}

@@ -63,7 +63,7 @@ if = {
 
 set_popularities = {	fascist = 34
 	centrist = 30
-	reformed_marxist = 36
+	marxist_humanist = 36
 }
 
 create_country_leader = {

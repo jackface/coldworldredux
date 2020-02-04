@@ -1,13 +1,13 @@
 PRC_alternate_plan_1 = {
-	name = "Reformed Marxist China Alternate 1: Japan Reformed Marxist"
-	desc = "With Japan Reformed Marxist, Reformed Marxist China will try to not antagonize them"
+	name = "Marxist-Humanist China Alternate 1: Japan Marxist-Humanist"
+	desc = "With Japan Marxist-Humanist, Marxist-Humanist China will try to not antagonize them"
 
 	enable = {
 		OR = {
 			original_tag = PRC
 			AND = {
 				is_chinese_warlord = yes
-				has_focus_tree = china_reformed_marxist_focus
+				has_focus_tree = china_marxist_humanist_focus
 			}
 		}
 		has_game_rule = {
@@ -15,7 +15,7 @@ PRC_alternate_plan_1 = {
 			option = DEFAULT
 		}
 		JAP = {
-			has_government = reformed_marxist
+			has_government = marxist_humanist
 		}
 	}
 	abort = {
@@ -62,7 +62,7 @@ PRC_alternate_plan_1 = {
 }
 
 PRC_alternate_plan_2 = {
-	name = "Reformed Marxist China Alternate 2: Social Democracy"
+	name = "Marxist-Humanist China Alternate 2: Social Democracy"
 	desc = "Ai choose to go social democrat, tone down antagonism to Nationalists"
 
 	enable = {
@@ -70,7 +70,7 @@ PRC_alternate_plan_2 = {
 			original_tag = PRC
 			AND = {
 				is_chinese_warlord = yes
-				has_focus_tree = china_reformed_marxist_focus
+				has_focus_tree = china_marxist_humanist_focus
 			}
 		}
 		OR = {
@@ -129,7 +129,7 @@ PRC_alternate_plan_2 = {
 }
 
 PRC_alternate_plan_3 = {
-	name = "Reformed Marxist China Alternate 2: Marxist orthodoxy"
+	name = "Marxist-Humanist China Alternate 2: Marxist orthodoxy"
 	desc = "Ai choose to go marxist"
 
 	enable = {
@@ -137,7 +137,7 @@ PRC_alternate_plan_3 = {
 			original_tag = PRC
 			AND = {
 				is_chinese_warlord = yes
-				has_focus_tree = china_reformed_marxist_focus
+				has_focus_tree = china_marxist_humanist_focus
 			}
 		}
 		OR = {

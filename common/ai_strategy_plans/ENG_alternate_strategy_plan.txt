@@ -103,9 +103,9 @@ ENG_alternate_centrist_plan = {
 
 }
 
-ENG_alternate_reformed_marxist_plan = {
-	name = "United Kingdom Reformed Marxist plan"
-	desc = "UK becomes reformed_marxist and will spread the Revolution!"
+ENG_alternate_marxist_humanist_plan = {
+	name = "United Kingdom Marxist-Humanist plan"
+	desc = "UK becomes marxist_humanist and will spread the Revolution!"
 
 	enable = {
 		original_tag = ENG

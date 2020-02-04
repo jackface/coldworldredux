@@ -439,9 +439,9 @@ USA_fascist = {
 
 }
 
-USA_reformed_marxist = {
-	name = "US Reformed Marxist Plan"
-	desc = "Plan for the US to go Reformed Marxist"
+USA_marxist_humanist = {
+	name = "US Marxist-Humanist Plan"
+	desc = "Plan for the US to go Marxist-Humanist"
 
 	enable = {
 		original_tag = USA
@@ -498,7 +498,7 @@ USA_reformed_marxist = {
 		earl_browder = 10
 	}
 	traits = {
-		reformed_marxist_revolutionary = 15
+		marxist_humanist_revolutionary = 15
 		
 	}
 

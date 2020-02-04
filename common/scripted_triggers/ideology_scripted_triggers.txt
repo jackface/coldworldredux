@@ -2,7 +2,7 @@
 is_enemy_ideology = {
 	OR = {
 		AND = {
-			has_government = reformed_marxist
+			has_government = marxist_humanist
 			ROOT = {
 				OR = {
 					has_government = fascist
@@ -14,7 +14,7 @@ is_enemy_ideology = {
 			has_government = centrist
 			ROOT = {
 				OR = {
-					has_government = reformed_marxist
+					has_government = marxist_humanist
 					has_government = fascist
 				}
 			}
@@ -24,7 +24,7 @@ is_enemy_ideology = {
 			ROOT = {
 				OR = {
 					has_government = centrist
-					has_government = reformed_marxist
+					has_government = marxist_humanist
 				}
 			}
 		}

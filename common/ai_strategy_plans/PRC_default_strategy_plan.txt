@@ -1,13 +1,13 @@
 PRC_default_plan = {
-	name = "Reformed Marxist China default plan"
-	desc = "Default behavior for Reformed Marxist China"
+	name = "Marxist-Humanist China default plan"
+	desc = "Default behavior for Marxist-Humanist China"
 
 	enable = {
 		OR = {
 			original_tag = PRC
 			AND = {
 				is_chinese_warlord = yes
-				has_focus_tree = china_reformed_marxist_focus
+				has_focus_tree = china_marxist_humanist_focus
 			}
 		}
 	}
@@ -46,7 +46,7 @@ PRC_default_plan = {
 }
 
 PRC_ally_CHI = {
-	name = "Reformed Marxist China alliance with CHI"
+	name = "Marxist-Humanist China alliance with CHI"
 	desc = "Forces alliance with CHI"
 
 	enable = {
@@ -55,8 +55,8 @@ PRC_ally_CHI = {
 			AND = {
 				is_chinese_warlord = yes
 				OR = {
-					has_focus_tree = china_reformed_marxist_focus
-					has_completed_focus = CHI_cooperation_with_the_reformed_marxists
+					has_focus_tree = china_marxist_humanist_focus
+					has_completed_focus = CHI_cooperation_with_the_marxist_humanists
 				}
 			}
 		}

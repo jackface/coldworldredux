@@ -1,4 +1,4 @@
-﻿capital = 308
+﻿capital = 798
 
 #oob = ""
 
@@ -21,12 +21,12 @@ set_popularities = {
 	fascist = 3
 	nationalist = 13
 	monarchist = 4
-	social_conservative = 24
+	social_conservative = 23
 	centrist = 9
 	liberal = 19
 	social_democrat = 21
 	socialist = 1
-	reformed_marxist = 2
+	marxist_humanist = 2
 	totalitarian_socialist = 5
 }
 

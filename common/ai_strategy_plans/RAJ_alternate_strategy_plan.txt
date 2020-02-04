@@ -1,5 +1,5 @@
-RAJ_alternate_reformed_marxist = {
-	name = "Raj alternate plan - reformed_marxist"
+RAJ_alternate_marxist_humanist = {
+	name = "Raj alternate plan - marxist_humanist"
 	desc = ""
 
 	enable = {

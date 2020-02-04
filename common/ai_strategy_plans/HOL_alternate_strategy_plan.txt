@@ -259,9 +259,9 @@ HOL_lead_the_minor_democracies_centrist_plan = {
 
 }
 
-HOL_alternate_reformed_marxist_plan = {
-	name = "Netherlands Reformed Marxist plan"
-	desc = "Netherlands will become reformed_marxist and build up on the continent rather than their colonies."
+HOL_alternate_marxist_humanist_plan = {
+	name = "Netherlands Marxist-Humanist plan"
+	desc = "Netherlands will become marxist_humanist and build up on the continent rather than their colonies."
 
 	enable = {
 		original_tag = HOL

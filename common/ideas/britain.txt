@@ -783,9 +783,9 @@ ideas = {
 			}
 		}
 
-		# Crap reformed_marxist ministers, intentionally without loc so they are 'randomized'
+		# Crap marxist_humanist ministers, intentionally without loc so they are 'randomized'
 
-		ENG_random_reformed_marxist_minister_14 = {
+		ENG_random_marxist_humanist_minister_14 = {
 
 			picture = generic_army_europe_5
 
@@ -803,7 +803,7 @@ ideas = {
 			
 			traits = { little_rocket_man }
 		}
-		ENG_random_reformed_marxist_minister_15 = {
+		ENG_random_marxist_humanist_minister_15 = {
 
 			picture = generic_army_europe_6
 

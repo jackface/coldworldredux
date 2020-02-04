@@ -240,7 +240,7 @@ CAN_fascist = {
 }
 
 CAN_fascist = {
-	name = "Canada goes reformed_marxist"
+	name = "Canada goes marxist_humanist"
 	desc = "They are very sorry about that"
 
 	enable = {
@@ -279,7 +279,7 @@ CAN_fascist = {
 		#1939
 		CAN_destroyer_effort							
 		CAN_we_have_the_hurricane						
-		CAN_reformed_marxist_labor_total_war_committee
+		CAN_marxist_humanist_labor_total_war_committee
 		CAN_victory_aircraft_limited
 		CAN_supply_the_red_army					
 		#1940

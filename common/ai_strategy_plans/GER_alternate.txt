@@ -136,7 +136,7 @@ German_alternate_centrist = {
 		GER_baltic_membership
 		GER_finnish_membership
 		GER_danubian_expansion
-		GER_no_balkan_reformed_marxist
+		GER_no_balkan_marxist_humanist
 		GER_polish_membership
 		GER_shared_rd_programs
 		GER_pool_technical_know_how

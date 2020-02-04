@@ -47,13 +47,13 @@ CHI_warlord_alternate_plan_nationalist = {
 	}
 }
 
-CHI_warlord_alternate_plan_reformed_marxist = {
-	name = "Chinese Warlord alternate plan when cooperating with reformed_marxists"
-	desc = "Alternate behavior for Chinese Warlord - Reformed Marxist"
+CHI_warlord_alternate_plan_marxist_humanist = {
+	name = "Chinese Warlord alternate plan when cooperating with marxist_humanists"
+	desc = "Alternate behavior for Chinese Warlord - Marxist-Humanist"
 
 	enable = {
 		is_chinese_warlord = yes
-		has_completed_focus = CHI_cooperation_with_the_reformed_marxists
+		has_completed_focus = CHI_cooperation_with_the_marxist_humanists
 	}
 	abort = {
 		not = {

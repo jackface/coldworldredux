@@ -100,7 +100,7 @@ set_politics = {
 }
 set_popularities = {
 	centrist = 97
-	reformed_marxist = 3
+	marxist_humanist = 3
 }
 
 create_country_leader = {

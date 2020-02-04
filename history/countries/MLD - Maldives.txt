@@ -52,7 +52,7 @@ set_politics = {
 set_popularities = {
 	centrist = 75
 	fascist = 1
-	reformed_marxist = 1
+	marxist_humanist = 1
 	monarchist = 23
 }
 
@@ -77,7 +77,7 @@ set_popularities = {
 	set_popularities = {
 		centrist = 38
 		fascist = 6
-		reformed_marxist = 6
+		marxist_humanist = 6
 		monarchist = 50
 	}
 }

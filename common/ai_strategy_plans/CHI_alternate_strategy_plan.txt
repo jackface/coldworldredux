@@ -47,7 +47,7 @@ CHI_alternate_plan_1 = {
 		CHI_military_affairs_commission
 		CHI_army_reform
 		#1938
-		CHI_anti_reformed_marxist
+		CHI_anti_marxist_humanist
 	}
 	focus_factors = {
 		CHI_rural_reconstruction_movement = 5
@@ -126,7 +126,7 @@ CHI_alternate_plan_2 = {
 		CHI_closer_ties_with_germany = 10
 		CHI_purchase_tanks = 5
 		CHI_give_falkenhausen_citizenship = 5
-		CHI_anti_reformed_marxist = 5
+		CHI_anti_marxist_humanist = 5
 		CHI_experimental_mechanised_unit = 5
 		CHI_chinese_general_staff = 5
 		CHI_chinese_panzers = 5

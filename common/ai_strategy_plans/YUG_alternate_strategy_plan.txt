@@ -1,5 +1,5 @@
-YUG_reformed_marxist = {
-	name = "Yugoslavian reformed_marxist plan"
+YUG_marxist_humanist = {
+	name = "Yugoslavian marxist_humanist plan"
 	desc = ""
 
 	enable = {

@@ -149,7 +149,7 @@ set_politics = {
 set_popularities = {
 	centrist = 80
 	fascist = 10
-	reformed_marxist = 10
+	marxist_humanist = 10
 }
 
 add_ideas = {
@@ -168,7 +168,7 @@ add_ideas = {
 	}
 	set_popularities = {
 		centrist = 99
-		reformed_marxist = 1
+		marxist_humanist = 1
 	}
 }
 

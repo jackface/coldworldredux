@@ -207,8 +207,8 @@ NZL_alternate_fascist = {
 
 }
 
-NZL_alternate_reformed_marxist = {
-	name = "Kiwi alternate reformed_marxist plan"
+NZL_alternate_marxist_humanist = {
+	name = "Kiwi alternate marxist_humanist plan"
 	desc = ""
 
 	enable = {
