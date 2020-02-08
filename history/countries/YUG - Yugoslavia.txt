@@ -58,7 +58,7 @@ add_puppet = CRO
 set_convoys = 10
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = marxist_humanist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -72,8 +72,8 @@ set_popularities = {
 	centrist = 0
 	liberal = 0
 	social_democrat = 0
-	socialist = 100
-	marxist_humanist = 0
+	socialist = 0
+	marxist_humanist = 100
 	totalitarian_socialist = 0
 }
 

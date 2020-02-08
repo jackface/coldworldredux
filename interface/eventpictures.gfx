@@ -1606,6 +1606,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "christopher_tickell_defects"
+		texturefile = "gfx/event_pictures/report_event/christopher_tickell_defects.dds"
+	}
+	
+	spriteType = {
 		name = "2010_leadership_race_tory"
 		texturefile = "gfx/event_pictures/report_event/2010_leadership_race_tory.dds"
 	}

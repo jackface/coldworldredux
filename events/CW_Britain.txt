@@ -33,6 +33,11 @@ country_event = {
 		name = britain.2.o1
 		add_political_power = -50
 		add_stability = -0.05
+		
+		news_event = {
+			id = britain_news.2
+			days = 1
+		}
 	}
 }
 
@@ -80,7 +85,15 @@ country_event = {
 			ideology = european_conservative
 		}
 		
+		news_event = {
+			id = britain_news.1
+			days = 1
+		}
+		
 	}
+	
+	
+	
 }
 
 #Conservative 2010 Leadership Race
@@ -218,6 +231,11 @@ country_event = {
 		hidden_effect = {
 			set_country_flag = robert_crow_shot
 		}
+		
+		news_event = {
+			id = britain_news.3
+			days = 1
+		}
 	}
 	
 	#Rest In Peace Sir Jeremy
@@ -225,6 +243,11 @@ country_event = {
 		name = britain.10.o2
 		hidden_effect = {
 			set_country_flag = jeremy_corbyn_shot
+		}
+		
+		news_event = {
+			id = britain_news.4
+			days = 1
 		}
 	}
 }
@@ -272,5 +295,88 @@ country_event = {
 	#
 	option = {   
 		name = britain.13.o1
+	}
+}
+
+#Christopher Tickell Joins Workers
+country_event = {
+	id = britain.14
+	title = britain.14.t
+	desc = britain.14.d
+	picture = christopher_tickell_defects
+	
+	is_triggered_only = yes
+	
+	#
+	option = {   
+		name = britain.14.o1
+	}
+}
+
+#Margaret Beckett Backs "Elected Government"
+country_event = {
+	id = britain.15
+	title = britain.15.t
+	desc = britain.15.d
+	#picture = christopher_tickell_defects
+	
+	is_triggered_only = yes
+	
+	#
+	option = {   
+		name = britain.15.o1
+	}
+}
+
+#XXX Demands A People's Provisional Government form
+country_event = {
+	id = britain.16
+	title = britain.16.t
+	desc = {
+		trigger = {
+			has_country_flag = robert_crow_shot
+			text = britain.16.drc
+		}
+		
+		trigger = {
+			has_country_flag = jeremy_corbyn_shot
+			text = britain.16.djc
+		}
+	}
+	#picture = christopher_tickell_defects
+	
+	is_triggered_only = yes
+	
+	#It is time to concede
+	option = {   
+		name = britain.16.o1
+		
+		if = {
+			limit = {
+				has_country_flag = robert_crow_shot
+			}
+			
+			set_politics = {
+				ruling_party = socialist
+			}
+			
+		}
+		
+		if = {
+			limit = {
+				has_country_flag = jeremy_corbyn_shot
+			}
+			
+			set_politics = {
+				ruling_party = marxist_humanist
+			}
+			
+		}
+		
+	}
+	
+	#Never
+	option = {   
+		name = britain.16.o2
 	}
 }

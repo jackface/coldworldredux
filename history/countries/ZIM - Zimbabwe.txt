@@ -13,7 +13,7 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = nationalist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -21,13 +21,13 @@ set_politics = {
 
 set_popularities = {
 	fascist = 3
-	nationalist = 10
+	nationalist = 30
 	monarchist = 0
 	social_conservative = 21
 	centrist = 7
 	liberal = 5
 	social_democrat = 3
-	socialist = 30
+	socialist = 10
 	marxist_humanist = 0
 	totalitarian_socialist = 21
 }
@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_ZIM_Robert_Mugabe.dds"
 	expire = "1953.3.1"
-	ideology = nationalist_socialism
+	ideology = authoritarian_democracy
 	traits = {
 		
 	}

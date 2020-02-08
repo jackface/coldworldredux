@@ -13,7 +13,7 @@ set_convoys = 10
 
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = marxist_humanist
 	last_election = "1934.11.8"
 	election_frequency = 48
 	elections_allowed = no
@@ -26,8 +26,8 @@ set_popularities = {
 	centrist = 9
 	liberal = 11
 	social_democrat = 5
-	socialist = 23
-	marxist_humanist = 13
+	socialist = 13
+	marxist_humanist = 23
 	totalitarian_socialist = 7
 }
 
@@ -36,7 +36,7 @@ create_country_leader = {
 	desc = "POLITICS_DANIEL_ORTEGA_DESC"
 	picture = "Portrait_NIC_Daniel_Ortega.dds"
 	expire = "1965.1.1"
-	ideology = chrisitan_socialism
+	ideology = marxist
 	traits = {
 		#
 	}

@@ -377,9 +377,6 @@ ideologies = {
 			anarcho_syndicalism = {
 			}
 			
-			nasserism = {
-			}
-			
 			chrisitan_socialism = {
 			}
 			
@@ -392,22 +389,10 @@ ideologies = {
 			islamic_socialist_ideology = {
 			}
 			
-			titoism = {
-			}
-			
 			arab_socialism = {
 			}
 			
-			nationalist_socialism = {
-			}
-			
-			syrian_baathism_left = {
-			}
-			
 			elected_trotskyism = {
-			}
-			
-			castroism = {
 			}
 			
 		}
@@ -445,6 +430,21 @@ ideologies = {
 		types = {
 		
 			marxist = {
+			}
+			
+			titoism = {
+			}
+			
+			syrian_baathism_left = {
+			}
+			
+			nasserism = {
+			}
+			
+			nationalist_socialism = {
+			}
+			
+			castroism = {
 			}
 			
 			american_marxist_humanist = {

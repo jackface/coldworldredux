@@ -1014,6 +1014,21 @@ spriteTypes = {
 		name = "news_jindal_inauguration"
 		texturefile = "gfx/event_pictures/news_event/news_jindal_inauguration.dds"
 	}
+	
+	spriteType = {
+		name = "news_mark_thatcher_resignation"
+		texturefile = "gfx/event_pictures/news_event/news_mark_thatcher_resignation.dds"
+	}
+	
+	spriteType = {
+		name = "news_robert_crow_dead"
+		texturefile = "gfx/event_pictures/news_event/news_robert_crow_dead.dds"
+	}
+	
+	spriteType = {
+		name = "news_jeremy_corbyn_dead"
+		texturefile = "gfx/event_pictures/news_event/news_jeremy_corbyn_dead.dds"
+	}
 
 
 

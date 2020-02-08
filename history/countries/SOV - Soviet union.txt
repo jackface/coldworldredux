@@ -83,15 +83,15 @@ set_politics = {
 }
 set_popularities = {
 	fascist = 0
-	nationalist = 0
+	nationalist = 4
 	monarchist = 0
-	social_conservative = 0
+	social_conservative = 8
 	centrist = 0
 	liberal = 0
-	social_democrat = 0
-	socialist = 5
-	marxist_humanist = 92
-	totalitarian_socialist = 3
+	social_democrat = 4
+	socialist = 3
+	marxist_humanist = 62
+	totalitarian_socialist = 19
 }
 
 create_faction = warsaw_pact
@@ -100,11 +100,12 @@ add_to_faction = POL
 add_to_faction = CZE
 add_to_faction = BUL
 add_to_faction = HUN
+add_to_faction = ROM
 
 create_country_leader = {
-	name = "Ivan Melnikov"
-	desc = "POLITICS_IVAN_MELNIKOV_DESC"
-	picture = "Portrait_SOV_Ivan_Melnikov.dds"
+	name = "Yegor Ligachev"
+	desc = "POLITICS_YEGOR_LIGACHEV_DESC"
+	picture = "Portrait_SOV_Yegor_Ligachev.dds"
 	expire = "1953.3.1"
 	ideology = leninist
 	traits = {

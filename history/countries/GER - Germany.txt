@@ -1,4 +1,4 @@
-﻿capital = 64
+﻿capital = 801
 
 
 set_fuel_ratio = 0.8

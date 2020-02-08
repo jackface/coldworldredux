@@ -281,3 +281,53 @@ country_event = {
 		
 	}
 }
+
+#June 27th, 2010
+country_event = {
+	id = exact_date_trigger.178
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.6.26
+	}
+	
+	option = {
+		##Army In London
+		if = {
+			limit = { 
+				country_exists = ENG
+				ENG = {
+					has_country_flag = thatcher_victory
+				}
+			}
+			ENG = { country_event = britain.12 }
+		}
+		
+	}
+}
+
+#July 7th, 2010
+country_event = {
+	id = exact_date_trigger.188
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2010.7.6
+	}
+	
+	option = {
+		##Tickell Defects
+		if = {
+			limit = { 
+				country_exists = ENG
+				ENG = {
+					has_country_flag = thatcher_victory
+				}
+			}
+			ENG = { country_event = britain.14 }
+		}
+		
+	}
+}

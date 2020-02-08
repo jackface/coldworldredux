@@ -43,23 +43,23 @@ if = {
 set_cosmetic_tag = SR_MAC
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = marxist_humanist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascist = 0
-	nationalist = 0
-	monarchist = 0
-	social_conservative = 0
-	centrist = 0
-	liberal = 0
-	social_democrat = 0
-	socialist = 100
-	marxist_humanist = 0
-	totalitarian_socialist = 0
+	fascist = 5
+	nationalist = 11
+	monarchist = 2
+	social_conservative = 15
+	centrist = 2
+	liberal = 8
+	social_democrat = 12
+	socialist = 19
+	marxist_humanist = 21
+	totalitarian_socialist = 5
 }
 
 create_country_leader = {
