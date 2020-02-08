@@ -11,31 +11,31 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = totalitarian_socialist
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascist = 6
-	nationalist = 10
+	fascist = 1
+	nationalist = 3
 	monarchist = 0
-	social_conservative = 31
+	social_conservative = 0
 	centrist = 3
-	liberal = 29
-	social_democrat = 12
-	socialist = 4
-	marxist_humanist = 3
-	totalitarian_socialist = 2
+	liberal = 3
+	social_democrat = 5
+	socialist = 10
+	marxist_humanist = 25
+	totalitarian_socialist = 50
 }
 
 create_country_leader = {
-	name = "Eugène Diomi Ndongala" 
+	name = "Laurent-Désiré Kabila" 
 	desc = ""
-	picture = "Portrait_COG_Eugene_Diomi_Ndongala.dds"
+	picture = "Portrait_COG_Kabila.dds"
 	expire = "1953.3.1"
-	ideology = christian_democracy
+	ideology = totalitarian_socialist_ideology
 	traits = {
 		
 	}
