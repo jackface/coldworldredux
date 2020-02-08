@@ -17,6 +17,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+	COG_Gbyene_Ghost
+	COG_Nonexistant_Industry
+	COG_Rampant_Corruption
+	COG_Bloated_Military
+}
+
 set_popularities = {
 	fascist = 1
 	nationalist = 3

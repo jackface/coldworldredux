@@ -1,9 +1,85 @@
 ideas = {
-	# MILITARY
 
+	country = {
 
+		COG_Gbyene_Ghost = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			removal_cost = -1
+		
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		COG_Nonexistant_Industry = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			removal_cost = -1
+		
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		COG_Rampant_Corruption = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			removal_cost = -1
+		
+			modifier = {
+				political_power_gain = -0.2
+				political_advisor_cost_factor = 0.25
+				trade_laws_cost_factor = 0.25
+				mobilization_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+			}
+		}
+
+		COG_Bloated_Military = {
+				
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+				
+			removal_cost = -1
+		
+			modifier = {
+				training_time_army_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				consumer_goods_factor = 0.05
+				military_leader_cost_factor = 0.25
+			}
+		}
+	}
 	
-
+	# MILITARY
 	army_chief = {
 
 		COG_aco2 = {

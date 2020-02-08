@@ -4030,4 +4030,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ENG/Republican_Sympathies.dds"
 	}
 	
+	# Congo-Kinshasa
+
+	spriteType = {
+		name = "GFX_idea_COG_Gbyene_Ghost"
+		texturefile = "gfx/interface/ideas/COG/COG_Gbyene_Ghost.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_COG_Nonexistant_Industry"
+		texturefile = "gfx/interface/ideas/COG/COG_Nonexistant_Industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_COG_Rampant_Corruption"
+		texturefile = "gfx/interface/ideas/COG/COG_Rampant_Corruption.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_COG_Bloated_Military"
+		texturefile = "gfx/interface/ideas/COG/COG_Bloated_Military.dds"
+	}
 }
