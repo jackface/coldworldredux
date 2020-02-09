@@ -502,6 +502,12 @@ ideologies = {
 			trotyskyist = {
 			}
 			
+			stalinist = {
+			}
+			
+			juche = {
+			}
+			
 			
 		}
 		

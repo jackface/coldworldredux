@@ -94,3 +94,14 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Kim Kyong-hui"
+	desc = ""
+	picture = "Portrait_KOR_Kim_Kyong_hui.dds"
+	expire = "1965.1.1"
+	ideology = juche
+	traits = {
+		#
+	}
+}
