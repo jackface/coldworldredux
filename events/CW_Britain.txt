@@ -380,3 +380,43 @@ country_event = {
 		name = britain.16.o2
 	}
 }
+
+#The Anti-Thatcherites Rise Up
+country_event = {
+	id = britain.17
+	title = britain.17.t
+	desc = {
+		trigger = {
+			has_country_flag = robert_crow_shot
+			text = britain.17.drc
+		}
+		
+		trigger = {
+			has_country_flag = jeremy_corbyn_shot
+			text = britain.17.djc
+		}
+	}
+	
+	hidden_effect = {
+		immediate = {
+			BRI = {
+				
+			}
+		} 
+	}
+	#picture = christopher_tickell_defects
+	
+	is_triggered_only = yes
+	
+	#For Queen, and Country
+	option = {   
+		name = britain.17.o1
+		
+		
+	}
+	
+	#For The People!
+	option = {   
+		name = britain.17.o2
+	}
+}
