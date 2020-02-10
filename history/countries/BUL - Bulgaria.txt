@@ -18,6 +18,8 @@ set_technology = {
 
 set_convoys = 5
 
+set_cosmetic_tag = SOV_SATELLITE
+
 set_politics = {
 	ruling_party = marxist_humanist
 	last_election = "1933.2.16"

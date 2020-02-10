@@ -1,0 +1,42 @@
+﻿capital = 802
+
+oob = "KAT_2010"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	fascist = 0
+	nationalist = 0
+	monarchist = 0
+	social_conservative = 7
+	centrist = 28
+	liberal = 6
+	social_democrat = 59
+	socialist = 0
+	marxist_humanist = 0
+	totalitarian_socialist = 0
+}
+
+create_country_leader = {
+	name = "Étienne Tshisekedi" 
+	desc = ""
+	picture = "Portrait_KAT_Tshisekedi.dds"
+	expire = "1953.3.1"
+	ideology = social_democrat_ideology
+	traits = {
+		
+	}
+}

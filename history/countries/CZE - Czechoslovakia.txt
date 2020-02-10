@@ -27,6 +27,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_cosmetic_tag = SOV_SATELLITE
+
 set_popularities = {
 	fascist = 0
 	nationalist = 0

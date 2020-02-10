@@ -18,7 +18,7 @@ set_technology = {
 	fuel_silos = 1
 }
 
-
+set_cosmetic_tag = SOV_SATELLITE
 
 set_politics = {
 	ruling_party = marxist_humanist
