@@ -43,6 +43,8 @@ if = {
 
 set_convoys = 10
 
+set_cosmetic_tag = SOV_SATELLITE
+
 set_politics = {
 	ruling_party = marxist_humanist
 	last_election = "1935.9.8"

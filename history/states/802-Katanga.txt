@@ -1,0 +1,27 @@
+state={
+	id=802
+	name="STATE_802"
+	resources={
+		tungsten=2.000
+	}
+	history={
+		owner = KAT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			191 3 
+		}
+		add_core_of = COG
+		add_core_of = KAT
+
+	}
+	provinces={
+		12907 1817 191 4515 1516 1968 12795
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000 
+	state_category=rural
+}

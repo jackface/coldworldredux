@@ -1,25 +1,30 @@
 
 SR_SLV = {
-    color = rgb { 72 73 126 }
-    color_ui = rgb { 72 73 126 }
+	color = rgb { 0 95 166 }
+	color_ui = rgb { 0 95 166 }
 }
 
 SR_CRO = {
-    color = rgb { 72 73 126 }
-    color_ui = rgb { 72 73 126 }
+	color = rgb { 0 95 166 }
+	color_ui = rgb { 0 95 166 }
 }
 
 SR_BOS = {
-    color = rgb { 72 73 126 }
-    color_ui = rgb { 72 73 126 }
+	color = rgb { 0 95 166 }
+	color_ui = rgb { 0 95 166 }
 }
 
 SR_MAC = {
-    color = rgb { 72 73 126 }
-    color_ui = rgb { 72 73 126 }
+	color = rgb { 0 95 166 }
+	color_ui = rgb { 0 95 166 }
 }
 
 SR_MNT = {
-    color = rgb { 72 73 126 }
-    color_ui = rgb { 72 73 126 }
+	color = rgb { 0 95 166 }
+	color_ui = rgb { 0 95 166 }
+}
+
+SOV_SATELLITE = {
+	color = rgb { 155 15 15 }
+	color_ui = rgb { 150 17 59 }
 }
