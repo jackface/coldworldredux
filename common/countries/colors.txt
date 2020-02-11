@@ -503,9 +503,9 @@ BHR = {
 	color = rgb { 103 76 243  }
 	color_ui = rgb { 103 76 243  }
 }
-BRI = {
-	color = rgb { 113 47 69  }
-	color_ui = rgb { 113 47 69  }
+KAT = {
+	color = rgb { 206 17 38 }
+	color_ui = rgb { 206 17 38 }
 }
 D01 = {
 	color = rgb { 200 100 31 }
@@ -566,8 +566,4 @@ D14 = {
 D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
-}
-KAT = {
-	color = rgb { 206 17 38 }
-	color_ui = rgb { 206 17 38 }
 }
