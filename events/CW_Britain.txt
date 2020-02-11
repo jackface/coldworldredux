@@ -105,19 +105,9 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	#Galbraith
-	option = {   
-		name = britain.5.o1
-		
-		hidden_effect = {
-			set_country_flag = galbraith_victory
-		}
-		
-	}
-	
 	#Thatcher
 	option = {   
-		name = britain.5.o2
+		name = britain.5.o1
 		
 		create_country_leader = {
 			name = "Carol Thatcher"
@@ -135,7 +125,7 @@ country_event = {
 	
 	#Cameron
 	option = {   
-		name = britain.5.o3
+		name = britain.5.o2
 		
 		create_country_leader = {
 			name = "David Cameron"
@@ -232,6 +222,14 @@ country_event = {
 			set_country_flag = robert_crow_shot
 		}
 		
+		create_country_leader = {
+			name = "Arthur Scargill"
+			desc = "POLITICS_ARTHUR_SCARGILL_DESC"
+			picture = "Portrait_ENG_Arthur_Scargill.dds"
+			expire = "1965.1.1"
+			ideology = marxist
+		}
+		
 		news_event = {
 			id = britain_news.3
 			days = 1
@@ -243,6 +241,14 @@ country_event = {
 		name = britain.10.o2
 		hidden_effect = {
 			set_country_flag = jeremy_corbyn_shot
+		}
+		
+		create_country_leader = {
+			name = "Anne Marie Rafferty"
+			desc = "POLITICS_ANNE_MARIE_RAFFERTY_DESC"
+			picture = "Portrait_ENG_Anne_Marie_Rafferty.dds"
+			expire = "1965.1.1"
+			ideology = socialist_ideology
 		}
 		
 		news_event = {
@@ -375,48 +381,27 @@ country_event = {
 		
 	}
 	
-	#Never
+	#Hand Power To Tickell
 	option = {   
 		name = britain.16.o2
-	}
-}
-
-#The Anti-Thatcherites Rise Up
-country_event = {
-	id = britain.17
-	title = britain.17.t
-	desc = {
-		trigger = {
-			has_country_flag = robert_crow_shot
-			text = britain.17.drc
+		
+		create_country_leader = {
+			name = "Christopher Tickell"
+			desc = "POLITICS_CHRISTOPHER_TICKELL_DESC"
+			picture = "Portrait_ENG_Christopher_Tickell.dds"
+			expire = "1965.1.1"
+			ideology = nationalist_ideology
 		}
 		
-		trigger = {
-			has_country_flag = jeremy_corbyn_shot
-			text = britain.17.djc
+		set_party_name = { 
+			ideology = nationalist 
+			long_name = ENG_nationalist_tickell_regime_long 
+			name = ENG_nationalist_tickell_regime
 		}
-	}
-	
-	hidden_effect = {
-		immediate = {
-			BRI = {
-				
-			}
-		} 
-	}
-	#picture = christopher_tickell_defects
-	
-	is_triggered_only = yes
-	
-	#For Queen, and Country
-	option = {   
-		name = britain.17.o1
 		
+		set_politics = {
+			ruling_party = nationalist
+		}
 		
-	}
-	
-	#For The People!
-	option = {   
-		name = britain.17.o2
 	}
 }

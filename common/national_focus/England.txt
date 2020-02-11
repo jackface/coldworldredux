@@ -1,0 +1,286 @@
+focus_tree = {
+	id = british_starting_tree
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 15
+			tag = ENG
+		}
+	}
+	
+	continuous_focus_position = { x = 1500 y = 100 }
+	
+	focus = {
+	
+		id = ENG_cameron_victorious
+		#icon = 
+		available = {
+			has_country_flag = cameron_victory
+		}
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_sit_down_with_veterans
+		#icon = 
+		prerequisite = { focus = ENG_cameron_victorious }
+		x = -2
+		y = 1
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_sit_down_with_unions
+		#icon = 
+		prerequisite = { focus = ENG_cameron_victorious }
+		x = 0
+		y = 1
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_sit_down_with_disabled
+		#icon = 
+		prerequisite = { focus = ENG_cameron_victorious }
+		x = 2
+		y = 1
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_establish_veterans_welfare_and_assistance
+		#icon = 
+		prerequisite = { focus = ENG_sit_down_with_veterans }
+		x = -2
+		y = 2
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_raise_minimum_wage
+		#icon = 
+		prerequisite = { focus = ENG_sit_down_with_unions }
+		x = 0
+		y = 2
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_create_disability_benefits
+		#icon = 
+		prerequisite = { focus = ENG_sit_down_with_disabled }
+		x = 2
+		y = 2
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_anti_thatcherite_speech
+		#icon = 
+		prerequisite = { focus = ENG_establish_veterans_welfare_and_assistance }
+		prerequisite = { focus = ENG_raise_minimum_wage }
+		prerequisite = { focus = ENG_create_disability_benefits }
+		mutually_exclusive = { focus = ENG_dont_strengthen_the_divide }
+		x = -1
+		y = 3
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_dont_strengthen_the_divide
+		#icon = 
+		prerequisite = { focus = ENG_establish_veterans_welfare_and_assistance }
+		prerequisite = { focus = ENG_raise_minimum_wage }
+		prerequisite = { focus = ENG_create_disability_benefits }
+		mutually_exclusive = { focus = ENG_anti_thatcherite_speech }
+		x = 1
+		y = 3
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_early_elections
+		#icon = 
+		prerequisite = { focus = ENG_anti_thatcherite_speech focus = ENG_dont_strengthen_the_divide }
+		x = 0
+		y = 4
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_labour_sweep
+		#icon = 
+		#prerequisite = { focus = ENG_ }
+		available = {
+			has_country_flag = early_elections_labour
+		}
+		x = -5
+		y = 5
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_sdp_surge
+		#icon = 
+		#prerequisite = { focus = ENG_ }
+		available = {
+			has_country_flag = early_elections_sdp
+		}
+		x = -2
+		y = 5
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_liberal_resurgence
+		#icon = 
+		#prerequisite = { focus = ENG_ }
+		available = {
+			has_country_flag = early_elections_liberal
+		}
+		x = 3
+		y = 5
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+	
+	focus = {
+	
+		id = ENG_camerons_minority
+		#icon = 
+		#prerequisite = { focus = ENG_ }
+		available = {
+			has_country_flag = early_elections_tory
+		}
+		x = 6
+		y = 5
+		relative_position_id = ENG_cameron_victorious
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			
+		}
+	
+	}
+
+}
